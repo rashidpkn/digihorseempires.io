@@ -46,7 +46,7 @@ export default function Hero():React.ReactElement {
                                     <div className="flex justify-between items-center px-5">
                                             <p className='font-conthrax text-xs'>PRE-SALE STAGE 1</p>
                                             <p className='font-vcr flex items-center gap-1'>
-                                              <img src="/images/home/logo.png" width={26} height={26} alt="" />
+                                              <img src="/images/home/logo.webp" width={26} height={26} alt="" />
                                                1 DIGI = $0.0075
                                                </p>
                                     </div>

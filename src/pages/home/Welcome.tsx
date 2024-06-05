@@ -4,7 +4,7 @@ export default function Welcome():React.ReactElement {
   return (
     <section className='container mx-auto px-[1%] py-20 flex gap-20 text-white'>
       
-      <img src="/images/home/logo.png" width={200} height={200} className='flex-shrink-0 rounded-full' alt="" />
+      <img src="/images/home/logo.webp" width={200} height={200} className='flex-shrink-0 rounded-full' alt="" />
 
       <div className="space-y-3">
         <h2 className='font-conthrax text-[30px]'>WELCOME TO THE DIGITAL EQUESTRIAN REALM.</h2>

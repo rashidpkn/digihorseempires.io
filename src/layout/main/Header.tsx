@@ -12,7 +12,7 @@ export default function Header():React.ReactElement {
   return (
     <header className='bg-[#171717] sticky top-0 z-50'>
         <div className="container mx-auto px-[1%] py-4 flex gap-5 justify-between items-center text-white font-conthrax text-xs">
-                <img src="/images/logo/logo.png" width={200} alt="" />
+                <img src="/images/logo/logo.webp" width={200} height={39.59} alt="" />
                 <NavLink to={'/'}>ABOUT</NavLink>
                 <NavLink to={'/'}>TEAM</NavLink>
                 <NavLink to={'/'}>PRE-SALE</NavLink>
