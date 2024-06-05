@@ -1,0 +1,27 @@
+@font-face {
+    font-family: slant;
+    src: url(../font/SLANT.TTF);
+  }
+  
+  @font-face {
+    font-family: conthrax;
+    src: url(../font/conthrax.otf);
+  }
+  
+  @font-face {
+    font-family: vcr;
+    src: url(../font/vcr.ttf);
+  }
+  
+  .font-slant{
+    font-family: slant;
+  }
+  .font-conthrax{
+    font-family: conthrax;
+  }
+  
+  .font-vcr{
+    font-family: vcr;
+  }
+  
+  

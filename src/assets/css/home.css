@@ -1,0 +1,109 @@
+.home-hero{
+    background-image: url(/images/home/hero.png);
+  }
+  
+  .home-hero-widget{
+    background: #00000080 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 30px #00000033;
+  opacity: 1;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  }
+  
+  .home-hero-widget-stage1{
+    background: #00FF4E15 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 30px #00FF4E80;
+  border: 2px solid #00FF4E;
+  border-radius: 4px;
+  opacity: 1;
+  }
+  
+  .home-hero-widget-stage2{
+  background: #000000B3 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 30px #00000033;
+  border-radius: 4px;
+  opacity: 1;
+  }
+  
+  .home-hero-widget-progressbar{
+    background: #00FF4E 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 20px #00FF4E;
+  border-radius: 10px;
+  opacity: 1;
+  }
+  
+  .home-hero-widget-connect-wallet{
+    background: #FFFFFF4D 0% 0% no-repeat padding-box;
+    border: 1px solid #FFFFFF;
+    opacity: 1;
+  }
+  
+  .home-hero-marquee{
+    background: transparent linear-gradient(90deg, #00000080 0%, #00000000 51%, #00000080 100%) 0% 0% no-repeat padding-box;
+    color: #00FF4E;
+    text-shadow: 0px 0px 20px #00FF4E;
+    font-size: 14px;
+  box-shadow: 0px 0px 30px #00000033;
+  opacity: 1;
+  }
+  
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .scrolling-strip {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .scrolling-strip .strip-item {
+    display: inline-block;
+    padding: 0 1rem;
+  }
+  
+  .scroll-animation {
+    display: inline-block;
+    animation: scroll 10s linear infinite;
+  }
+
+  .home-red-box{
+
+    background: #FF000015 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 30px #FF000080;
+border: 2px solid #FF0000;
+border-radius: 4px;
+opacity: 1;
+
+}
+
+.home-blue-box{
+  background: #00CEFF15 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 30px #00CEFF80;
+  border: 2px solid #00CEFF;
+  border-radius: 4px;
+  opacity: 1;
+
+}
+
+.home-gold-box{
+  background: #FFEB0015 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 30px #FFEB0080;
+border: 2px solid #FFEB00;
+border-radius: 4px;
+opacity: 1;
+}
+
+.home-green-box{
+  background: #00FF4E15 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 30px #00FF4E80;
+border: 2px solid #00FF4E;
+border-radius: 4px;
+opacity: 1;
+}
