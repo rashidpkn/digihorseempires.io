@@ -70,49 +70,7 @@ export default function Hero():React.ReactElement {
                         </div>
             </div>
 
-            <div className="scrolling-strip home-hero-marquee text-lg font-bold py-2 w-full absolute bottom-32">
-                
-    <div className="scroll-animation">    
-      <span className="strip-item">PRE-SALE LIVE</span>
-      <span className="strip-item">|</span>
-      <span className="strip-item">PRE-SALE LIVE</span>
-      <span className="strip-item">|</span>
-      <span className="strip-item">PRE-SALE LIVE</span>
-      <span className="strip-item">|</span>
-      <span className="strip-item">PRE-SALE LIVE</span>
-      <span className="strip-item">|</span>
-      <span className="strip-item">PRE-SALE LIVE</span>
-      <span className="strip-item">|</span>
-      <span className="strip-item">PRE-SALE LIVE</span>
-    </div>
-    <div className="scroll-animation">    
-    <span className="strip-item">PRE-SALE LIVE</span>
-      <span className="strip-item">|</span>
-      <span className="strip-item">PRE-SALE LIVE</span>
-      <span className="strip-item">|</span>
-      <span className="strip-item">PRE-SALE LIVE</span>
-      <span className="strip-item">|</span>
-      <span className="strip-item">PRE-SALE LIVE</span>
-      <span className="strip-item">|</span>
-      <span className="strip-item">PRE-SALE LIVE</span>
-      <span className="strip-item">|</span>
-      <span className="strip-item">PRE-SALE LIVE</span>
-    </div>
-    <div className="scroll-animation">    
-    <span className="strip-item">PRE-SALE LIVE</span>
-      <span className="strip-item">|</span>
-      <span className="strip-item">PRE-SALE LIVE</span>
-      <span className="strip-item">|</span>
-      <span className="strip-item">PRE-SALE LIVE</span>
-      <span className="strip-item">|</span>
-      <span className="strip-item">PRE-SALE LIVE</span>
-      <span className="strip-item">|</span>
-      <span className="strip-item">PRE-SALE LIVE</span>
-      <span className="strip-item">|</span>
-      <span className="strip-item">PRE-SALE LIVE</span>
-    </div>
-    
-  </div>
+            
 
         </section>
   )
