@@ -5,10 +5,10 @@ import Footer from './Footer'
 
 export default function MainLayout()  {
   return (
-    <>
+    <div className='w-full overflow-hidden'>
     <Header/>
     <Outlet/>
     <Footer/>
-    </>
+    </div>
   )
 }

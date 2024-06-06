@@ -8,13 +8,13 @@ export default function Refer()  {
 
   return (
     <section className="text-white relative">
-      <img src="/images/home/hero-2.webp" className='h-full absolute right-0 min-w-[30%] object-top object-cover ' alt="" />
+      <img src="/images/home/hero-2.webp" className='lg:h-full absolute right-0 w-1/2 my-auto  lg:min-w-[30%] object-top object-cover ' alt="" />
         <div className="container mx-auto px-[1%] py-20 space-y-20 relative z-10">
           <div className="flex items-start flex-wrap gap-10 2xl:gap-20">
-          <div className="font-slant text-[54px]  max-w-sm 2xl:max-w-lg">
+          <div className="font-slant text-4xl lg:text-[54px]  max-w-sm 2xl:max-w-lg">
               <h3>
                 REFER FRIENDS{" "}
-                <span className="text-[80px] text-[#00FF4E]"> EARN DIGI </span>
+                <span className="text-7xl lg:text-[80px] text-[#00FF4E]"> EARN DIGI </span>
               </h3>
             </div>
             <div className="max-w-lg 2xl:max-w-lg">
@@ -32,10 +32,10 @@ export default function Refer()  {
             
           </div>
 
-          <div className="flex flex-wrap gap-10 2xl:gap-20">
+          <div className="flex flex-wrap gap-10 2xl:gap-20 text-center lg:text-left">
           
             <div className="max-w-sm 2xl:max-w-lg w-full space-y-5">
-              <p className="font-conthrax text-[30px] flex items-center gap-3">
+              <p className="font-conthrax text-[30px] flex items-center justify-center lg:justify-start gap-3">
                 <img src="/images/home/spark.webp" alt=""  className='w-[50px] h-[27px]'/>
                  STEP 1</p>
               <p className="font-vcr text-[18px]">Securely connect your wallet.</p>
@@ -46,11 +46,11 @@ export default function Refer()  {
               
             </div>
             <div className="max-w-sm 2xl:max-w-lg w-full space-y-5">
-              <p className="font-conthrax text-[30px] flex items-center gap-3">
+              <p className="font-conthrax text-[30px] flex items-center justify-center lg:justify-start gap-3">
                 <img src="/images/home/spark.webp" alt=""  className='w-[50px] h-[27px]'/>
                  Step 2</p>
               <p className="font-vcr text-[18px]">Share code with friends and family.</p>
-              <div className="flex gap-5 items-center ">
+              <div className="flex gap-5 items-center justify-center lg:justify-start">
                 <p className="font-vcr text-[38px]">* * * *</p>
                 <button className="font-conthrax home-hero-widget-connect-wallet py-4 px-8" onClick={()=>{
                   
@@ -60,7 +60,7 @@ export default function Refer()  {
           </div>
 
 
-        <div className="grid grid-cols-6 gap-6 2xl:gap-10">
+        <div className="grid  lg:grid-cols-6 gap-6 2xl:gap-10">
           <div className="p-5 flex flex-col justify-center items-center gap-1 home-red-box">
             <img src="/images/home/red-logo.webp" width={80} height={80} className="rounded-full" alt="" />
             <p className="font-conthrax text-[12px] font-semibold">1ST PLACE</p>
@@ -83,7 +83,7 @@ export default function Refer()  {
         </div>
 
 
-              <div className="flex justify-between items-center">
+              <div className="flex flex-col lg:flex-row gap-10 justify-between items-center text-center lg:text-right">
                 <p className='font-cothrax '>STAY CONNECTED</p>
                 <p className='font-vcr text-[20px] max-w-3xl'>The more your code is used, the closer you get to winning! Stay tuned for monthly winner announcements on our socials.</p>
                 <div className="flex gap-5 items-center justify-center">

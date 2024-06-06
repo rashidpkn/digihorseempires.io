@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Welcome()  {
   return (
-    <section className='container mx-auto px-[1%] py-20 flex gap-20 text-white'>
+    <section className='container mx-auto px-[1%] py-20 flex flex-col lg:flex-row items-center text-center lg:text-left gap-20 text-white'>
       
       <img src="/images/home/logo.webp" width={200} height={200} className='flex-shrink-0 rounded-full' alt="" />
 

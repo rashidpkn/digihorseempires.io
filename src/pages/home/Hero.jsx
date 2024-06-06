@@ -7,25 +7,30 @@ export default function Hero()  {
     const {isConnected,address} = useAccount()
   return (
     <section className='home-hero min-h-screen bg-cover bg-center text-white relative'>
-            <div className="container mx-auto  lg:px-[5%]  flex flex-col lg:flex-row gap-24 lg:gap-0  justify-between pt-24">
+                <img src="	https://digihorseempires-io.onrender.com/images/home/hero.webp" className='absolute top-0 -z-10 left-0 w-full h-full object-scale-down' alt="" />
+            <div className="container mx-auto  lg:px-[5%] 2xl:px-[1px]  flex flex-col lg:flex-row gap-24 lg:gap-0  justify-between pt-24">
                         <div className="text-center lg:text-left">
                             <p className='font-conthrax text-sm 2xl:text-xl'>WELCOME TO</p>
                             <h1 className='font-slant text-7xl 2xl:text-8xl'>DIGIHORSE EMPIRES</h1>
                             <p className='font-conthrax text-sm 2xl:text-xl'>RIDING THE WAVE OF THE WEB3 GAMING REVOLUTION</p>
                         </div>
-                        <div className="max-w-[400px] w-full home-hero-widget p-5 space-y-3">
+                        <div className="relative">
+
+                       
+                            <img src="/images/home/widget-box.svg" height={'100%'} className='absolute scale-110 object-cover w-full h-full  ' alt="" />
+                        <div className="max-w-[400px] 2xl:max-w-xl w-full home-hero-widget2 p-5 space-y-3 2xl:space-y-5 relative">
                             <p className='text-center font-vcr text-sm'>Buy now before Prices increase!</p>
                                     
                                     <div className="grid grid-cols-2 gap-3">
                                         <div className="w-full home-hero-widget-stage1 p-5 space-y-1">
-                                            <div className="flex justify-between">
+                                            <div className="flex justify-between items-center">
                                                 <p className='text-[10px] font-conthrax'>STAGE 1</p>
                                                 <p className='text-sm font-vcr'><span></span> Live</p>
                                             </div>
                                             <p className='text-center font-vcr text-xl'>$0.0125</p>
                                         </div>
                                         <div className="w-full home-hero-widget-stage2 p-5 space-y-1">
-                                        <div className="flex justify-between">
+                                        <div className="flex justify-between items-center">
                                                 <p className='text-[10px] font-conthrax'>STAGE 2</p>
                                                 <p className='text-sm font-vcr'><span></span> 66.67%</p>
                                             </div>
@@ -67,6 +72,7 @@ export default function Hero()  {
 
                             <p className='text-center font-vcr text-sm'>Don't have an account? <span className='text-[#00FF4E]'>Register</span></p>
 
+                        </div>
                         </div>
             </div>
 
