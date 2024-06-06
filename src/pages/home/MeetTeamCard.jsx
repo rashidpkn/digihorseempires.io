@@ -57,7 +57,7 @@ export default function MeetTeamCard() {
     }, { scope: container })
 
     return (
-        <div ref={container}>
+        <div ref={container} className='font-vcr'>
             <h3 className='text-center text-4xl md:text-[4em] mt-16 font-slant mx-0 md:mx-32 pt-32 container_team_target text-white'>Meet Our Legendary Team</h3>
             <p className='text-center text-lg text-[#d0e4c6] z-10 relative md:w-[60%] m-auto px-6 mt-4'>
                 Welcome to DigiHorse, where innovation meets mythology in an epic tale of digital adventure. Our team is unlike any other, comprised of legendary horses whose names echo through the annals of history and myth. As guardians of innovation and pioneers of the blockchain industry, these mythical steeds lead the charge towards a future where digital assets and NFTs reign supreme. Join us on a journey through the ages as we introduce you to the legendary team behind DigiHorse.

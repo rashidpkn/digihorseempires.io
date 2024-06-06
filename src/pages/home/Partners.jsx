@@ -54,7 +54,7 @@ const Partners = () => {
 
 
     return (
-        <div >
+        <div className='font-vcr'>
             <h3 className='text-center text-4xl md:text-[4em] mt-16 font-slant mx-32 md:mx-0 container_team_target text-white'>Compatible Wallets</h3>
             <div className="container mx-auto md:px-10 mt-24 relative">
                 <div className={`absolute w-[50px] h-[50px] md:w-[700px] md:h-[300px] bg-[#53cc5e90] opacity-0  left-[0%] md:left-[50%] -bottom-[0%] border`} />

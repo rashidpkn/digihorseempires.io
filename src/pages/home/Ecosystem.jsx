@@ -49,7 +49,7 @@ export default function Ecosystem() {
   }, { scope: container })
 
   return (
-    <div className='px-4 lg:mx-32  my-16 md:flex md:gap-10 relative' ref={container} id="ecosystem">
+    <div className='font-vcr px-4 lg:mx-32  my-16 md:flex md:gap-10 relative' ref={container} id="ecosystem">
       {ecosystem.map((item, key) => {
         return <div className={`container_ecosystem container_ecosystem${key} bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] w-full rounded-2xl flex justify-center relative mt-16  ${key % 2 == 0 ? 'delay-anim' : ''}`} key={key}>
           <div className={`hidden md:block ecoGlare ecoGlare${key} w-[100px] h-[100px] bg-[#9ae89d] blur-[50px] opacity-40 animate-pulse absolute -translate-x-16 translate-y-8`} />

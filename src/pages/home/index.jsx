@@ -22,9 +22,9 @@ export default function HomePage() {
 
       <RoadMap/>
 
-      <p className='text-center w-[80%] text-sm md:text-lg text-[#d0e4c6] md:px-[10%] m-auto mt-12 '>Step into the forefront of the Web3 gaming revolution with DigiHorse, where we're redefining the landscape of profitability and entertainment. As web3 gaming experiences unprecedented growth, we're pioneering a new era where players can not only enjoy immersive gameplay but also profit from their passion for gaming through blockchain technology. </p>
+      <p className='text-center w-[80%] text-sm md:text-lg text-[#d0e4c6] md:px-[10%] m-auto mt-12 font-vcr'>Step into the forefront of the Web3 gaming revolution with DigiHorse, where we're redefining the landscape of profitability and entertainment. As web3 gaming experiences unprecedented growth, we're pioneering a new era where players can not only enjoy immersive gameplay but also profit from their passion for gaming through blockchain technology. </p>
 
-      <p className='text-xl md:text-3xl font-bold my-8 text-center text-white mt-32'>Seize the Opportunities</p>
+      <p className='text-xl md:text-3xl font-bold my-8 text-center text-white mt-32 font-slant'>Seize the Opportunities</p>
         <div className='flex flex-col md:flex-row  md:justify-between px-8 lg:px-32   text-white '>
 
           <div className=' flex mt-8 '>
@@ -32,15 +32,15 @@ export default function HomePage() {
               monitoring
             </span>
             <div>
-              <p className='text-3xl'>NFT Wearables Marketplace</p>
-              <p className='w-[80%] mt-3 '>
+              <p className='text-3xl font-vcr'>NFT Wearables Marketplace</p>
+              <p className='w-[80%] mt-3 font-vcr'>
                 Dive into our vibrant marketplace and explore a wide range of NFT wearables to customize your horses and enhance their performance. From sleek saddles to stylish bridles, these digital accessories not only add flair to your horses but also serve as valuable assets that can be bought, sold, and traded for profit.
               </p>
             </div>
           </div>
 
-          <div className='flex mt-8'>
-            <span className="material-symbols-rounded text-[3em] mr-8 hidden lg:block">
+          <div className='flex mt-8 font-vcr'>
+            <span className="material-symbols-rounded text-[3em] mr-8 hidden lg:block ">
               pie_chart
             </span>
             <div>
@@ -49,7 +49,7 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className=' flex mt-8'>
+          <div className=' flex mt-8 font-vcr'>
             <span className="material-symbols-rounded text-[3em] mr-8 hidden lg:block">
               account_balance_wallet
             </span>
@@ -71,7 +71,7 @@ export default function HomePage() {
         {/* sci-fi-huds */}
         <h3 className='text-center text-4xl md:text-[4em] mt-32 font-slant text-white'>Building a Thriving Ecosystem</h3>
 
-        <p className='text-center text-lg text-[#d0e4c6] z-10 relative md:w-[60%] m-auto px-6 leading-5 md:mt-6 hidden md:block'>
+        <p className='font-vcr text-center text-lg text-[#d0e4c6] z-10 relative md:w-[60%] m-auto px-6 leading-5 md:mt-6 hidden md:block'>
           At DigiHorse, we've created a comprehensive ecosystem that encompasses every aspect of the horse racing experience.
         </p>
 
@@ -80,7 +80,7 @@ export default function HomePage() {
 
 
 {/* About us */}
-<div >
+<div className="font-vcr">
           <div className='fadeup rounded-3xl md:rounded-[100px] bg-[#1a2b2460] m-8 md:mx-32 md:mt-44 p-8 md:p-16 md:flex justify-between relative'>
             <div>
               <div className='flex items-center'>
@@ -105,7 +105,7 @@ export default function HomePage() {
 
 
 
-        <div className='bg-no-repeat w-full h-[50vh] m-auto bg-auto bg-center  md:px-[12vw] pt-32 ' id="path_audit">
+        <div className='font-vcr bg-no-repeat w-full h-[50vh] m-auto bg-auto bg-center  md:px-[12vw] pt-32 ' id="path_audit">
           <div className='hidden lg:block absolute -z-0 m-auto  left-[10vw] right-[10vw]'>
             <img src="https://staging.digihorseempires.io/images/landing/sci-banner.webp" className='w-full' />
           </div>
@@ -146,14 +146,14 @@ export default function HomePage() {
           <Media />
         </section>
 
-        <div className='block'>
+        <div className='block font-vcr'>
           <h3 className='text-center text-[4em] font-slant text-white mt-16'>FAQS</h3>
           <h3 className='text-center text-4xl mb-12 font-slant'>Answers to Your Most Common Questions</h3>
           <Faq />
         </div>
 
 
-        <div className='rounded-[80px] bg-[#53cc5e10] mt-32 p-8 md:p-16 relative text-center md:w-[60vw] mx-6 md:ml-[20vw] overflow-hidden'>
+        <div className='font-vcr rounded-[80px] bg-[#53cc5e10] mt-32 p-8 md:p-16 relative text-center md:w-[60vw] mx-6 md:ml-[20vw] overflow-hidden'>
 
 <p className='text-center text-4xl  leading-[.8em] font-slant text-primary'>Join the Revolution</p>
 <p className='text-white text-xl md:mx-16 m-8'>

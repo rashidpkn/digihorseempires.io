@@ -17,7 +17,7 @@ const socialLinks = { youtube: 'https://www.youtube.com/@digihorse_empires', ins
 
 export default function Footer()  {
   return (
-    <footer className='bg-black pt-5'>
+    <footer className='bg-black pt-5 font-vcr'>
       <div id="path_contact" className='relative'>
             <div className='lg:flex justify-between md:mx-32'>
 

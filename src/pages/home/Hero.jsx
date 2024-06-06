@@ -16,8 +16,8 @@ export default function Hero()  {
                         </div>
                         <div className="relative">
 
-                       
-                            <img src="/images/home/widget-box.svg" height={'100%'} className='absolute scale-110 object-cover w-full h-full  ' alt="" />
+                        <div className="absolute w-3 h-[1px] nav-link top-3 mx-auto inset-x-0 z-10"></div>
+                            <img src="/images/home/widget-box.svg" height={'100%'} className='absolute scale-110 object-cover w-full h-full ' alt="" />
                         <div className="max-w-[400px] 2xl:max-w-xl w-full home-hero-widget2 p-5 space-y-3 2xl:space-y-5 relative">
                             <p className='text-center font-vcr text-sm'>Buy now before Prices increase!</p>
                                     

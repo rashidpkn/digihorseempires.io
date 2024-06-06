@@ -151,12 +151,12 @@ function RoadMap() {
             {/* for mobile only */}
             <img className={`md:hidden w-[40px]`} src="./images/landing/footPrint.png" />
             {/* title */}
-            <p className='text-2xl md:text-[2.8em] text-white my-4 leading-[1em]'>{card.title}</p>
+            <p className='text-2xl md:text-[2.8em] text-white my-4 leading-[1em] font-conthrax'>{card.title}</p>
             {/* contents */}
             {/* <p className='text-[#b8adc2] text-xl'>{card.content}</p> */}
             <ul className=''>
               {card.content.map((content, index)=>(
-                <li key={index} className='text-[#d0e4c6] text-sm md:text-lg list-disc mt-2'>{content}</li>
+                <li key={index} className='text-[#d0e4c6] text-sm md:text-lg list-disc mt-2 font-vcr'>{content}</li>
               ))}
             </ul>
           </div>

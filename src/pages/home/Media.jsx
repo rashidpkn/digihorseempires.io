@@ -26,7 +26,7 @@ const Media = () => {
 
 
     return (
-        <div className="mx-5 md:mx-32">
+        <div className="mx-5 md:mx-32 font-vcr">
             <h3 className='text-center text-4xl md:text-[4em] mt-16 font-slant md:mx-32 mx-0 container_team_target mb-24 text-white'>Featured in</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 justify-items-center">
                 {cards.map((card, index) => (
