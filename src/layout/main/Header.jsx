@@ -11,13 +11,13 @@ export default function Header()  {
   
 
   return (
-    <header className=' sticky top-0 z-50 '>
+    <header className='sticky top-0 z-50 '>
       <div className="bg-[#171717]">
 
-        <div className="container mx-auto px-[5%] 2xl:px-[1px]  py-4 flex gap-5 justify-between items-center text-white font-conthrax text-[9px]">
-                <img src="/images/logo/logo.webp" width={200} height={39.59} alt="" />
+        <div className="w-[80%] mx-auto  py-4 flex  justify-between items-center text-white font-conthrax text-[8px] font-semibold ">
+                <img src="/images/logo/logo.webp" width={150} height={39.59} alt="" />
                 <div className="hidden lg:flex gap-1 flex-col items-center group">
-                   <NavLink to={'/'} className={'group-hover:text-white text-white/70'}>ABOUT</NavLink>
+                   <NavLink to={'/'} className={'group-hover:text-white text-white/70' }>ABOUT</NavLink>
                    <div className="w-2 h-[1px] bg-[#00FF4E] nav-link rounded-full hidden group-hover:block"></div>
                    <div className="w-2 h-[1px] block group-hover:hidden"></div>
                   </div>
@@ -26,11 +26,7 @@ export default function Header()  {
                    <div className="w-2 h-[1px] bg-[#00FF4E] nav-link rounded-full hidden group-hover:block"></div>
                    <div className="w-2 h-[1px] block group-hover:hidden"></div>
                   </div>
-                <div className="hidden lg:flex gap-1 flex-col items-center group">
-                   <NavLink to={'/'} className={'group-hover:text-white text-white/70'}>PRE-SALE</NavLink>
-                   <div className="w-2 h-[1px] bg-[#00FF4E] nav-link rounded-full hidden group-hover:block"></div>
-                   <div className="w-2 h-[1px] block group-hover:hidden"></div>
-                  </div>
+                
                 <div className="hidden lg:flex gap-1 flex-col items-center group">
                    <NavLink to={'/'} className={'group-hover:text-white text-white/70'}>ROADMAP</NavLink>
                    <div className="w-2 h-[1px] bg-[#00FF4E] nav-link rounded-full hidden group-hover:block"></div>
@@ -56,11 +52,7 @@ export default function Header()  {
                    <div className="w-2 h-[1px] bg-[#00FF4E] nav-link rounded-full hidden group-hover:block"></div>
                    <div className="w-2 h-[1px] block group-hover:hidden"></div>
                   </div>
-                <div className="hidden lg:flex gap-1 flex-col items-center group">
-                   <NavLink to={'/'} className={'group-hover:text-white text-white/70'}>Contact</NavLink>
-                   <div className="w-2 h-[1px] bg-[#00FF4E] nav-link rounded-full hidden group-hover:block"></div>
-                   <div className="w-2 h-[1px] block group-hover:hidden"></div>
-                  </div>
+              
 
                 <button className='  relative' onClick={() => open()}>
                   <img src="/images/nav-connect.png" className='w-full h-full absolute object-cover' alt="" />
