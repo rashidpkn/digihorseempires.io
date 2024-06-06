@@ -80,7 +80,19 @@ export default function Refer()  {
             <p className="font-vcr text-[36px]">$100.00</p>
             <p className="flex gap-1 items-center"><span className="inline-block h-[5px] w-[5px] rounded-full bg-white"></span> USDC</p>
           </div>
-          <div className="p-5 flex flex-col justify-center items-center gap-1 home-green-box col-span-3"></div>
+
+          <div className="flex flex-col  gap-1 home-green-box lg:col-span-3 text-center lg:text-left">
+            <img src="/images/home/green-logos.png" className='w-full  lg:object-cover object-scale-down' alt="" />
+            <div className="flex flex-col items-center lg:items-start gap-10 lg:gap-2 p-5">
+              <div className="">
+              <p className="font-conthrax text-[12px] font-semibold"> PLACES 4-10</p>
+              <p className="font-vcr text-[36px]">$500.00</p>
+              <p className="flex gap-1 items-center justify-center lg:justify-start"><span className="inline-block h-[5px] w-[5px] rounded-full bg-white"></span> DIGI</p>
+              </div>
+              <p className='font-vcr text-[18px]'>*Win $500 worth of $DIGI coins each, based on $0.0500 listing price.</p>
+            </div>
+
+          </div>
         </div>
 
 
