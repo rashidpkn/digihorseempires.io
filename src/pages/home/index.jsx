@@ -10,6 +10,7 @@ import MeetTeamCard from "./MeetTeamCard";
 import Partners from "./Partners";
 import Media from "./Media";
 import Faq from "./Faq";
+import Button from "../../components/Button";
 
 export default function HomePage() {
   return (
@@ -118,12 +119,12 @@ export default function HomePage() {
 
 
               <div className='flex flex-col lg:flex-row justify-center md:justify-end  gap-4 flex-1'>
-                {/* <Button
+                <Button
                   onClick={() => window.open('https://github.com/solidproof/projects/blob/main/2024/DigiHorse%20Empires/SmartContract_Audit_Solidproof_DigiHorseEmpires.pdf', '_blank')}
                   title="VIEW AUDIT"
                   className="md:px-1620 p-4 bg-gradient-to-r from-primary to-secondary text-textColor md:mt-0 mt-6 lg:px-16"
                   type="primary"
-                /> */}
+                />
               </div>
             </div>
           </div>
@@ -161,12 +162,12 @@ Are you ready to ride the wave of the Web3 gaming revolution and unleash the ful
 <div className='w-[116px] h-[116px] bg-[#9ae89dc7] blur-[100px]  absolute opacity-60 top-[30%] right-[40%] -z-10' />
 <a
   href="#path_purchase">
-  {/* <Button
+  <Button
     // onClick={'open'}
     title="JOIN NOW"
     className="p-4 bg-gradient-to-r from-primary to-secondary text-textColor w-44 m-auto hover:opacity-90 cursor-pointer"
     type="primary"
-  /> */}
+  />
 </a>
 
 <div className='absolute  w-full h-full top-0 left-0 -z-10'>

@@ -6,14 +6,14 @@ export default function Hero()  {
     const { open } = useWeb3Modal()
     const {isConnected,address} = useAccount()
   return (
-    <section className='home-hero h-screen bg-cover bg-center text-white relative'>
-            <div className="container mx-auto px-[1%]  flex justify-between pt-32">
-                        <div className="">
-                            <p className='font-conthrax font-semibold text-xl'>STEP IN TO</p>
-                            <h1 className='font-slant text-7xl 2xl:text-8xl'>DIGIHORSE EMPIRES</h1>
-                            <p className='font-conthrax font-semibold text-xl'>RIDING THE WAVE OF THE WEB3 GAMING REVOLUTION</p>
+    <section className='home-hero min-h-screen bg-cover bg-center text-white relative'>
+            <div className="container mx-auto px-[] lg:px-[1%]  flex flex-col lg:flex-row gap-24 lg:gap-0  justify-between pt-28">
+                        <div className="text-center lg:text-left">
+                            <p className='font-conthrax font-semibold text-lg 2xl:text-xl'>WELCOME TO</p>
+                            <h1 className='font-slant text-6xl 2xl:text-8xl'>DIGIHORSE EMPIRES</h1>
+                            <p className='font-conthrax font-semibold text-lg 2xl:text-xl'>RIDING THE WAVE OF THE WEB3 GAMING REVOLUTION</p>
                         </div>
-                        <div className="max-w-md w-full home-hero-widget p-5 space-y-5">
+                        <div className="max-w-[400px] w-full home-hero-widget p-5 space-y-5">
                             <p className='text-center font-vcr'>Buy now before Prices increase!</p>
                                     
                                     <div className="grid grid-cols-2 gap-5">
