@@ -16,15 +16,15 @@ export default function Header()  {
 
         <div className="container mx-auto px-[5%] 2xl:px-[1px]  py-4 flex gap-5 justify-between items-center text-white font-conthrax text-[9px]">
                 <img src="/images/logo/logo.webp" width={200} height={39.59} alt="" />
-                <NavLink to={'/'}>ABOUT</NavLink>
-                <NavLink to={'/'}>TEAM</NavLink>
-                <NavLink to={'/'}>PRE-SALE</NavLink>
-                <NavLink to={'/'}>ROADMAP</NavLink>
-                <NavLink to={'/'}>WHITEPAPER</NavLink>
-                <NavLink to={'/'}>HOW TO BUY</NavLink>
-                <NavLink to={'/'}>AUDIT</NavLink>
-                <NavLink to={'/'}>FAQ</NavLink>
-                <NavLink to={'/'}>Contact</NavLink>
+                <NavLink to={'/'} className={'hidden lg:block'}>ABOUT</NavLink>
+                <NavLink to={'/'} className={'hidden lg:block'}>TEAM</NavLink>
+                <NavLink to={'/'} className={'hidden lg:block'}>PRE-SALE</NavLink>
+                <NavLink to={'/'} className={'hidden lg:block'}>ROADMAP</NavLink>
+                <NavLink to={'/'} className={'hidden lg:block'}>WHITEPAPER</NavLink>
+                <NavLink to={'/'} className={'hidden lg:block'}>HOW TO BUY</NavLink>
+                <NavLink to={'/'} className={'hidden lg:block'}>AUDIT</NavLink>
+                <NavLink to={'/'} className={'hidden lg:block'}>FAQ</NavLink>
+                <NavLink to={'/'} className={'hidden lg:block'}>Contact</NavLink>
 
                 <button className='connect-btn py-3 px-7' onClick={() => open()}>
                   {isConnected ? address?.substring(0,5) + '...' + address?.substring(address.length-5,address.length) :  'CONNECT'}

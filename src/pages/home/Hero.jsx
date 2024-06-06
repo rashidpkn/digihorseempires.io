@@ -6,8 +6,8 @@ export default function Hero()  {
     const { open } = useWeb3Modal()
     const {isConnected,address} = useAccount()
   return (
-    <section className='home-hero min-h-screen bg-cover bg-center text-white relative'>
-                <img src="	https://digihorseempires-io.onrender.com/images/home/hero.webp" className='absolute top-0 -z-10 left-0 w-full h-full object-scale-down' alt="" />
+    <section className='home-hero min-h-screen bg-cover bg-[-200px] lg:bg-center text-white relative'>
+                
             <div className="container mx-auto  lg:px-[5%] 2xl:px-[1px]  flex flex-col lg:flex-row gap-24 lg:gap-0  justify-between pt-24">
                         <div className="text-center lg:text-left">
                             <p className='font-conthrax text-sm 2xl:text-xl'>WELCOME TO</p>

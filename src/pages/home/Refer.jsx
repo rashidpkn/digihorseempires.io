@@ -18,7 +18,7 @@ export default function Refer()  {
               </h3>
             </div>
             <div className="max-w-lg 2xl:max-w-lg">
-              <p className="font-vcr text-[20px]">
+              <p className="font-vcr text-[15px] lg:text-[20px]">
                 Share your referral code with friends and family. When someone
                 uses your code,{" "}
                 <span className="text-[#00FF4E]">
