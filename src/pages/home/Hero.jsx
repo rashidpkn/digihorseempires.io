@@ -65,7 +65,8 @@ export default function Hero()  {
                                     </div>
                                     </div>
 
-                            <button className='home-hero-widget-connect-wallet w-full py-4 ' onClick={()=>open()}>
+                            <button className=' w-full py-2 relative '  onClick={()=>open()}>
+                                <img src="/images/home/connect.png" className='absolute top-0 w-full h-full' alt="" />
                             {isConnected ? address?.substring(0,5) + '...' + address?.substring(address.length-5,address.length) :  'CONNECT WALLET'}
                                 </button>
 

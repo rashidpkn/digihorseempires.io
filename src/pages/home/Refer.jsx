@@ -40,7 +40,8 @@ export default function Refer()  {
                  STEP 1</p>
               <p className="font-vcr text-[18px]">Securely connect your wallet.</p>
               
-              <button className="font-conthrax home-hero-widget-connect-wallet py-4 w-full" onClick={()=>open()}>
+              <button className="font-conthrax home-hero-widget-connect-walle py-4 w-full relative" onClick={()=>open()}>
+              <img src="/images/home/connect.png" className='absolute top-0 w-full h-full' alt="" />
               {isConnected ? address?.substring(0,5) + '...' + address?.substring(address.length-5,address.length) :  'CONNECT WALLET'}
               </button>
               
