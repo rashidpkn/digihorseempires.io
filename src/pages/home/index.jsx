@@ -153,7 +153,7 @@ export default function HomePage() {
         </div>
 
 
-        <div className='rounded-[80px] bg-[#53cc5e10] my-32 p-8 md:p-16 relative text-center md:w-[60vw] mx-6 md:ml-[20vw] overflow-hidden'>
+        <div className='rounded-[80px] bg-[#53cc5e10] mt-32 p-8 md:p-16 relative text-center md:w-[60vw] mx-6 md:ml-[20vw] overflow-hidden'>
 
 <p className='text-center text-4xl  leading-[.8em] font-slant text-primary'>Join the Revolution</p>
 <p className='text-white text-xl md:mx-16 m-8'>

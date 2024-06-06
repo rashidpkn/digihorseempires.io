@@ -35,10 +35,10 @@ export default function Refer()  {
           <div className="flex flex-wrap gap-10 2xl:gap-20 text-center lg:text-left">
           
             <div className="max-w-sm 2xl:max-w-lg w-full space-y-5">
-              <p className="font-conthrax text-[30px] flex items-center justify-center lg:justify-start gap-3">
+              <p className="font-conthrax text-[20px] flex items-center justify-center lg:justify-start gap-3">
                 <img src="/images/home/spark.webp" alt=""  className='w-[50px] h-[27px]'/>
                  STEP 1</p>
-              <p className="font-vcr text-[18px]">Securely connect your wallet.</p>
+              <p className="font-vcr text-[16px]">Securely connect your wallet.</p>
               
               <button className="font-conthrax home-hero-widget-connect-walle py-4 w-full relative" onClick={()=>open()}>
               <img src="/images/home/connect.png" className='absolute top-0 w-full h-full' alt="" />
@@ -47,10 +47,10 @@ export default function Refer()  {
               
             </div>
             <div className="max-w-sm 2xl:max-w-lg w-full space-y-5">
-              <p className="font-conthrax text-[30px] flex items-center justify-center lg:justify-start gap-3">
+              <p className="font-conthrax text-[20px] flex items-center justify-center lg:justify-start gap-3">
                 <img src="/images/home/spark.webp" alt=""  className='w-[50px] h-[27px]'/>
                  Step 2</p>
-              <p className="font-vcr text-[18px]">Share code with friends and family.</p>
+              <p className="font-vcr text-[16px]">Share code with friends and family.</p>
               <div className="flex gap-5 items-center justify-center lg:justify-start">
                 <p className="font-vcr text-[38px]">* * * *</p>
                 <button className="font-conthrax home-hero-widget-connect-wallet py-4 px-8" onClick={()=>{

@@ -17,53 +17,58 @@ export default function Header()  {
         <div className="container mx-auto px-[5%] 2xl:px-[1px]  py-4 flex gap-5 justify-between items-center text-white font-conthrax text-[9px]">
                 <img src="/images/logo/logo.webp" width={200} height={39.59} alt="" />
                 <div className="hidden lg:flex gap-1 flex-col items-center group">
-                   <NavLink to={'/'} className={''}>ABOUT</NavLink>
+                   <NavLink to={'/'} className={'group-hover:text-white text-white/70'}>ABOUT</NavLink>
                    <div className="w-2 h-[1px] bg-[#00FF4E] nav-link rounded-full hidden group-hover:block"></div>
                    <div className="w-2 h-[1px] block group-hover:hidden"></div>
                   </div>
                 <div className="hidden lg:flex gap-1 flex-col items-center group">
-                   <NavLink to={'/'} className={''}>TEAM</NavLink>
+                   <NavLink to={'/'} className={'group-hover:text-white text-white/70'}>TEAM</NavLink>
                    <div className="w-2 h-[1px] bg-[#00FF4E] nav-link rounded-full hidden group-hover:block"></div>
                    <div className="w-2 h-[1px] block group-hover:hidden"></div>
                   </div>
                 <div className="hidden lg:flex gap-1 flex-col items-center group">
-                   <NavLink to={'/'} className={''}>PRE-SALE</NavLink>
+                   <NavLink to={'/'} className={'group-hover:text-white text-white/70'}>PRE-SALE</NavLink>
                    <div className="w-2 h-[1px] bg-[#00FF4E] nav-link rounded-full hidden group-hover:block"></div>
                    <div className="w-2 h-[1px] block group-hover:hidden"></div>
                   </div>
                 <div className="hidden lg:flex gap-1 flex-col items-center group">
-                   <NavLink to={'/'} className={''}>ROADMAP</NavLink>
+                   <NavLink to={'/'} className={'group-hover:text-white text-white/70'}>ROADMAP</NavLink>
                    <div className="w-2 h-[1px] bg-[#00FF4E] nav-link rounded-full hidden group-hover:block"></div>
                    <div className="w-2 h-[1px] block group-hover:hidden"></div>
                   </div>
                 <div className="hidden lg:flex gap-1 flex-col items-center group">
-                   <NavLink to={'/'} className={''}>WHITEPAPER</NavLink>
+                   <NavLink to={'/'} className={'group-hover:text-white text-white/70'}>WHITEPAPER</NavLink>
                    <div className="w-2 h-[1px] bg-[#00FF4E] nav-link rounded-full hidden group-hover:block"></div>
                    <div className="w-2 h-[1px] block group-hover:hidden"></div>
                   </div>
                 <div className="hidden lg:flex gap-1 flex-col items-center group">
-                   <NavLink to={'/'} className={''}>HOW TO BUY</NavLink>
+                   <NavLink to={'/'} className={'group-hover:text-white text-white/70'}>HOW TO BUY</NavLink>
                    <div className="w-2 h-[1px] bg-[#00FF4E] nav-link rounded-full hidden group-hover:block"></div>
                    <div className="w-2 h-[1px] block group-hover:hidden"></div>
                   </div>
                 <div className="hidden lg:flex gap-1 flex-col items-center group">
-                   <NavLink to={'/'} className={''}>AUDIT</NavLink>
+                   <NavLink to={'/'} className={'group-hover:text-white text-white/70'}>AUDIT</NavLink>
                    <div className="w-2 h-[1px] bg-[#00FF4E] nav-link rounded-full hidden group-hover:block"></div>
                    <div className="w-2 h-[1px] block group-hover:hidden"></div>
                   </div>
                 <div className="hidden lg:flex gap-1 flex-col items-center group">
-                   <NavLink to={'/'} className={''}>FAQ</NavLink>
+                   <NavLink to={'/'} className={'group-hover:text-white text-white/70'}>FAQ</NavLink>
                    <div className="w-2 h-[1px] bg-[#00FF4E] nav-link rounded-full hidden group-hover:block"></div>
                    <div className="w-2 h-[1px] block group-hover:hidden"></div>
                   </div>
                 <div className="hidden lg:flex gap-1 flex-col items-center group">
-                   <NavLink to={'/'} className={''}>Contact</NavLink>
+                   <NavLink to={'/'} className={'group-hover:text-white text-white/70'}>Contact</NavLink>
                    <div className="w-2 h-[1px] bg-[#00FF4E] nav-link rounded-full hidden group-hover:block"></div>
                    <div className="w-2 h-[1px] block group-hover:hidden"></div>
                   </div>
 
-                <button className='connect-btn py-3 px-7' onClick={() => open()}>
+                <button className='  relative' onClick={() => open()}>
+                  <img src="/images/nav-connect.png" className='w-full h-full absolute object-cover' alt="" />
+                  <p className='py-3 px-7'>
+
                   {isConnected ? address?.substring(0,5) + '...' + address?.substring(address.length-5,address.length) :  'CONNECT'}
+                  </p>
+
                   
                   </button>
         </div>
