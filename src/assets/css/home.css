@@ -107,3 +107,16 @@ border: 2px solid #00FF4E;
 border-radius: 4px;
 opacity: 1;
 }
+
+.home-leaderboard-bg{
+  background-image: url(/images/home/banner2.png);
+}
+
+.home-leaderboard-table{
+  /* background: url('/images/home/leaderboard-table-bg.png'); */
+  background: transparent  0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 30px #00000033;
+  opacity: 1;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+}

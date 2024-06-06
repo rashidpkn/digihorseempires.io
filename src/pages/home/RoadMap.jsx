@@ -110,7 +110,7 @@ function RoadMap() {
             className={`hidden md:block md:w-[500px] ${key === yourPath.length - 1 && 'md:-mt-[20px]'}`}
             id=""
           >
-            <img className={`m-auto foot_anim ${'foot_anim' + key} opacity-0 md:scale-[.7] w-[100px] h-[100px] ${key % 2 == 0 ? '-rotate-[225deg] -translate-x-3 -translate-y-2 ' : 'rotate-[225deg] -translate-x-4 '}`} src="./images/landing/footPrint.png" />
+            <img className={`m-auto foot_anim ${'foot_anim' + key} opacity-0 md:scale-[.7] w-[100px] h-[100px] ${key % 2 == 0 ? '-rotate-[225deg] -translate-x-3 -translate-y-2 ' : 'rotate-[225deg] -translate-x-4 '}`} src="https://staging.digihorseempires.io/images/landing/footPrint.png" />
             {/* <img className={`m-auto foot_anim ${'foot_anim' + key} opacity-0 md:scale-[.7] w-[100px] ${key % 2 == 0 ? ' translate-x-0 ' : ' translate-x-0'}`} src="./fire.gif" /> */}
 
             {/* <video controls={false} autoPlay={true} loop={true} muted={true} className={`hidden md:block bg-blend-multiply absolute left-[10%] bg-transparent w-full md:w-[400px] ${key % 2 == 0 ? '-rotate-[160deg] translate-x-24 ' : 'rotate-[225deg] translate-x-0'}`} >
