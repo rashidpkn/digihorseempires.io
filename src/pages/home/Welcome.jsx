@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Welcome():React.ReactElement {
+export default function Welcome()  {
   return (
     <section className='container mx-auto px-[1%] py-20 flex gap-20 text-white'>
       

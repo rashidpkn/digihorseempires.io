@@ -19,7 +19,7 @@ const metadata = {
   icons: ['https://avatars.githubusercontent.com/u/37784886']
 }
 
-const chains = [mainnet, arbitrum] as const
+const chains = [mainnet, arbitrum] 
 const config = defaultWagmiConfig({
   chains,
   projectId,
@@ -33,7 +33,7 @@ createWeb3Modal({
   enableOnramp: true 
 })
 
-export function Web3ModalProvider({ children }:any) {
+export function Web3ModalProvider({ children }) {
   return (
     <WagmiProvider config={config}>
       <QueryClientProvider client={queryClient}>{children}</QueryClientProvider>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function PreSale():React.ReactElement {
+export default function PreSale()  {
   return (
     <div className="scrolling-strip home-hero-marquee text-lg font-bold py-2 w-full bg-black/90">
                 

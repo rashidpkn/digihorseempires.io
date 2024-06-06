@@ -4,7 +4,7 @@ import Welcome from "./Welcome";
 import Refer from "./Refer";
 import RoadMap from "./RoadMap";
 
-export default function HomePage(): React.ReactElement {
+export default function HomePage() {
   return (
     <main className="bg-black">
       <Hero />

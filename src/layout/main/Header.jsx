@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom'
 import { useAccount } from 'wagmi'
 import PreSale from './PreSale'
 
-export default function Header():React.ReactElement {
+export default function Header()  {
   const { open } = useWeb3Modal()
   const {isConnected,address} = useAccount()
   

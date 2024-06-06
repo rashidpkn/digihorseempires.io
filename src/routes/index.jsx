@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import MainLayout from '../layout/main'
 import HomePage from '../pages/home'
 
-export default function Router():React.ReactElement {
+export default function Router()  {
   return (
     <BrowserRouter>
     <Routes>

@@ -40,14 +40,14 @@ const yourPath = [{
 function RoadMap() {
 
 
-  const container:any = useRef()
+  const container = useRef()
   const q = gsap.utils.selector(container);
   let mm = gsap.matchMedia();
 
 
   useGSAP(() => {
     if (container.current) {
-      gsap.utils.toArray('#path_roadmap .path_container').forEach((element:any, key) => {
+      gsap.utils.toArray('#path_roadmap .path_container').forEach((element, key) => {
         mm.add("(min-width: 640px)", () => {
           gsap.to(element, {
             x: key % 2 == 0 ? -100 : -50,
@@ -64,7 +64,7 @@ function RoadMap() {
         })
 
 
-        gsap.utils.toArray('#path_roadmap .foot_anim').forEach((element:any, key) => {
+        gsap.utils.toArray('#path_roadmap .foot_anim').forEach((element, key) => {
           gsap.fromTo(element, { opacity: 0 }, {
             // x: 400,
             scale: 1,
@@ -81,7 +81,7 @@ function RoadMap() {
         })
 
 
-        gsap.utils.toArray('#path_roadmap .road_path_anim').forEach((element:any, key) => {
+        gsap.utils.toArray('#path_roadmap .road_path_anim').forEach((element, key) => {
           gsap.to(element, {
             height: 290,
             scrollTrigger: {

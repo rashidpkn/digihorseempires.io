@@ -2,7 +2,7 @@ import { useWeb3Modal } from '@web3modal/wagmi/react'
 import React from 'react'
 import { useAccount } from 'wagmi'
 
-export default function Refer():React.ReactElement {
+export default function Refer()  {
   const { open } = useWeb3Modal()
     const {isConnected,address} = useAccount()
 
