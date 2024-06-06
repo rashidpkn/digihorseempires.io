@@ -58,7 +58,7 @@ export default function MeetTeamCard() {
 
     return (
         <div ref={container}>
-            <h3 className='text-center text-4xl md:text-[4em] mt-16 text-slant mx-0 md:mx-32 pt-32 container_team_target text-white'>Meet Our Legendary Team</h3>
+            <h3 className='text-center text-4xl md:text-[4em] mt-16 font-slant mx-0 md:mx-32 pt-32 container_team_target text-white'>Meet Our Legendary Team</h3>
             <p className='text-center text-lg text-[#d0e4c6] z-10 relative md:w-[60%] m-auto px-6 mt-4'>
                 Welcome to DigiHorse, where innovation meets mythology in an epic tale of digital adventure. Our team is unlike any other, comprised of legendary horses whose names echo through the annals of history and myth. As guardians of innovation and pioneers of the blockchain industry, these mythical steeds lead the charge towards a future where digital assets and NFTs reign supreme. Join us on a journey through the ages as we introduce you to the legendary team behind DigiHorse.
             </p>
@@ -76,8 +76,8 @@ export default function MeetTeamCard() {
                     >
                         <div className='bg-gradient-to-tr from-[#1a2b24]  to-secondary  w-full h-full absolute block opacity-0 group-hover:opacity-100 transition-all duration-150' />
                         <div className='relative z-10 w-full p-3 group-hover:bg-transparent transition-all  duration-700 hover:h-full' >
-                            <p className='text-4xl mb-4 text-gold text-left group-hover:text-center min-h-16 drop-shadow-lg'>
-                                <i className='w-[80%] h-20 bg-[#00000090] absolute -z-10 blur-xl group-hover:opacity-0' />
+                            <p className='text-4xl mb-4 text-gold text-left group-hover:text-center min-h-16 drop-shadow-lg font-slant'>
+                                <i className='w-[80%] h-20 bg-[#00000090] absolute -z-10 blur-xl group-hover:opacity-0 font-slant' />
                                 {team.name}
                             </p>
                             <p className='h-0 group-hover:h-auto opacity-0 group-hover:opacity-100  text-white text-sm'>{team.description} </p>

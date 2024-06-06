@@ -102,7 +102,7 @@ function RoadMap() {
 
   return (
     <div className='flex flex-col justify-center items-center relative mx-8 pt-32' id="path_roadmap" ref={container}>
-      <h3 className='text-center text-4xl md:text-[4em] mt-32 text-slant -translate-y-20 text-white'>Your Path to Profit</h3>
+      <h3 className='text-center text-4xl md:text-[4em] mt-32 font-slant -translate-y-20 text-white'>Your Path to Profit</h3>
 
       {yourPath.map((card, key) => {
         return <div className="flex" key={"paths_" + key}>

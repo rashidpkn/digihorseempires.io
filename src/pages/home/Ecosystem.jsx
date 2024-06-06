@@ -54,7 +54,7 @@ export default function Ecosystem() {
         return <div className={`container_ecosystem container_ecosystem${key} bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] w-full rounded-2xl flex justify-center relative mt-16  ${key % 2 == 0 ? 'delay-anim' : ''}`} key={key}>
           <div className={`hidden md:block ecoGlare ecoGlare${key} w-[100px] h-[100px] bg-[#9ae89d] blur-[50px] opacity-40 animate-pulse absolute -translate-x-16 translate-y-8`} />
           <div className='mx-8 my-16'>
-            <p className='text-3xl text-gold mb-8 text-white'>{item.title}</p>
+            <p className='text-3xl text-gold mb-8 text-white font-slant'>{item.title}</p>
             <p className='text-[#d0e4c6] tab:text-xl text-sm'>{item.description}</p>
           </div>
         </div>

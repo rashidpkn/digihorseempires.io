@@ -69,7 +69,7 @@ export default function HomePage() {
 
 
         {/* sci-fi-huds */}
-        <h3 className='text-center text-4xl md:text-[4em] mt-32 text-slant text-white'>Building a Thriving Ecosystem</h3>
+        <h3 className='text-center text-4xl md:text-[4em] mt-32 font-slant text-white'>Building a Thriving Ecosystem</h3>
 
         <p className='text-center text-lg text-[#d0e4c6] z-10 relative md:w-[60%] m-auto px-6 leading-5 md:mt-6 hidden md:block'>
           At DigiHorse, we've created a comprehensive ecosystem that encompasses every aspect of the horse racing experience.
@@ -86,7 +86,7 @@ export default function HomePage() {
               <div className='flex items-center'>
                 <img src="https://staging.digihorseempires.io/images/landing/footPrint.png" className='h-[60px] md:h-[100px] mr-4' />
                 <div>
-                  <p className='text-4xl md:text-[4em]  text-slant text-white'>Unleashing Profitability</p>
+                  <p className='text-4xl md:text-[4em]  font-slant text-white'>Unleashing Profitability</p>
                   <p className='text-4xl'>in Digital Gaming</p>
                 </div>
               </div>
@@ -110,7 +110,7 @@ export default function HomePage() {
             <img src="https://staging.digihorseempires.io/images/landing/sci-banner.webp" className='w-full' />
           </div>
           <div className='relative z-0 sm:mx-8 sm:top-4 md:top-8 '>
-            <h3 className='text-center text-[4em] md:text-[2em] lg:text-[4em]  text-gold relative'>DigiHorse</h3>
+            <h3 className='text-center text-[4em] md:text-[2em] lg:text-[4em]  text-gold relative font-slant'>DigiHorse</h3>
             <div className='sm:flex justify-between sm:mt-12 mx-12'>
               <div className='flex-1'>
                 <p className='text-xl'>Contract Address</p>
@@ -147,15 +147,15 @@ export default function HomePage() {
         </section>
 
         <div className='block'>
-          <h3 className='text-center text-[4em] text-slant text-white mt-16'>FAQS</h3>
-          <h3 className='text-center text-4xl mb-12 text-slant'>Answers to Your Most Common Questions</h3>
+          <h3 className='text-center text-[4em] font-slant text-white mt-16'>FAQS</h3>
+          <h3 className='text-center text-4xl mb-12 font-slant'>Answers to Your Most Common Questions</h3>
           <Faq />
         </div>
 
 
         <div className='rounded-[80px] bg-[#53cc5e10] my-32 p-8 md:p-16 relative text-center md:w-[60vw] mx-6 md:ml-[20vw] overflow-hidden'>
 
-<p className='text-center text-4xl  leading-[.8em] text-slant text-primary'>Join the Revolution</p>
+<p className='text-center text-4xl  leading-[.8em] font-slant text-primary'>Join the Revolution</p>
 <p className='text-white text-xl md:mx-16 m-8'>
 Are you ready to ride the wave of the Web3 gaming revolution and unleash the full potential of your passion for horse racing? Join us at DigiHorse and become part of a global community of gamers, investors, and enthusiasts who are shaping the future of digital entertainment. Welcome to DigiHorse, where profit meets passion, and the possibilities are endless.
 </p>
