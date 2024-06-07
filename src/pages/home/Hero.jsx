@@ -68,9 +68,13 @@ export default function Hero()  {
                                     </div>
                                     </div>
 
-                            <button className=' w-full py-2 relative '  onClick={()=>open()}>
-                                <img src="/images/home/connect.png" className='absolute top-0 w-full h-full' alt="" />
+                            <button className=' w-full py-2 relative group '  onClick={()=>open()}>
+                                <img src="/button/light-white-connect.png" className='group-hover:hidden absolute top-0 w-full h-full' alt="" />
+                                <img src="/button/white-connect.png" className='hidden group-hover:block absolute top-0 w-full h-full' alt="" />
+                                <p className='hover:text-black relative z-10'>
+
                             {isConnected ? address?.substring(0,5) + '...' + address?.substring(address.length-5,address.length) :  'CONNECT WALLET'}
+                                </p>
                                 </button>
 
 

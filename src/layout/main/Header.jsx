@@ -56,8 +56,9 @@ export default function Header()  {
 
                 <button className=' relative group' onClick={() => open()}>
                   {/* <img src="/images/nav-connect.png" className='group-hover:hidden w-full h-full absolute object-cover' alt="" /> */}
-                  <img src="/images/nav-connect.png" className=' w-full h-full absolute object-cover' alt="" />
-                  {/* <img src="/images/nav-connect-green.png" height={36} width={100} className='hidden group-hover:block w-full h-full absolute object-cover' alt="" /> */}
+                  <img src="/button/light-green-connect.png" className='group-hover:hidden w-full h-full absolute object-cover' alt="" />
+                  
+                  <img src="/button/green-connect.png" height={36} width={100} className='hidden group-hover:block w-full h-full absolute object-cover' alt="" />
                   <p className='py-3 px-7 relative z-10'>
 
                   {isConnected ? address?.substring(0,5) + '...' + address?.substring(address.length-5,address.length) :  'CONNECT'}

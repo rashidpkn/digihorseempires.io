@@ -53,19 +53,19 @@ export default function Refer() {
             </p>
 
             <button
-              className="font-conthrax home-hero-widget-connect-walle py-4 w-full relative"
+              className="font-conthrax home-hero-widget-connect-walle py-4 w-full relative group max-w-xs"
               onClick={() => open()}
             >
-              <img
-                src="/images/home/connect.png"
-                className="absolute top-0 w-full h-full"
-                alt=""
-              />
+              <img src="/button/light-white-connect.png" className='group-hover:hidden absolute top-0 w-full h-full' alt="" />
+                                <img src="/button/white-connect.png" className='hidden group-hover:block absolute top-0 w-full h-full' alt="" />
+                                <p className="group-hover:text-black relative z-10 text-sm">
+
               {isConnected
                 ? address?.substring(0, 5) +
-                  "..." +
-                  address?.substring(address.length - 5, address.length)
+                "..." +
+                address?.substring(address.length - 5, address.length)
                 : "CONNECT WALLET"}
+                </p>
             </button>
           </div>
           <div className="max-w-sm 2xl:max-w-lg w-full space-y-5">
@@ -83,10 +83,15 @@ export default function Refer() {
             <div className="flex gap-5 items-center justify-center lg:justify-start">
               <p className="font-vcr text-[38px]">* * * *</p>
               <button
-                className="font-conthrax home-hero-widget-connect-wallet py-4 px-8"
+                className="font-conthrax relative group text-xs"
                 onClick={() => {}}
               >
+                <img src="/button/share-light-white.png" className='group-hover:hidden absolute top-0 w-full h-full' alt="" />
+                                <img src="/button/share-white.png" className='hidden group-hover:block absolute top-0 w-full h-full' alt="" />
+                                <p className=" py-4 px-8  group-hover:text-black relative z-10 text-sm">
+
                 SHARE
+                                </p>
               </button>
             </div>
           </div>
