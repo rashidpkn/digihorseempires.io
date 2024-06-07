@@ -7,15 +7,15 @@ export default function Refer() {
   const { isConnected, address } = useAccount();
 
   return (
-    <section className="text-white relative">
+    <section className="text-white relative ">
       <img
         src="/images/home/hero-2.webp"
         className="lg:h-full absolute right-0  my-auto w-1/2 lg:w-auto  lg:min-w-[30%] object-top object-cover "
         alt=""
       />
-      <div className="w-[75%] mx-auto py-20 space-y-20 relative z-10">
+      <div className="w-[75%] mx-auto py-20 space-y-20 relative z-10 scale-90">
         <div className="flex items-start flex-wrap gap-10 2xl:gap-20">
-          <div className="font-slant text-4xl lg:text-[40px]  max-w-sm 2xl:max-w-lg">
+          <div className="font-slant text-4xl lg:text-[40px]  max-w-xs ">
             <h3>
               REFER FRIENDS{" "}
               <span className="text-7xl lg:text-[60px] text-[#00FF4E]">
