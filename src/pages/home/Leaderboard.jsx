@@ -20,24 +20,14 @@ export default function Leaderboard() {
                             <tbody className='font-vcr text-[20px]'>
                                 {[1,2,3,4,5,6,7,8,9,10].map(e=>{
                                     return(
-                                        <tr key={e} className='  cursor-pointer duration-200'>
-                                    <td className='flex gap-5 items-center pl-3 h-14   hover:bg-white/20 duration-200'>
-
+                                        <tr key={e} className=' hover:bg-white/20 duration-200 cursor-pointer'>
+                                    <td width={100} className='flex gap-5 items-center pl-3 h-14'>
                                         <img src="/images/home/red-logo.webp"  width={40} alt="" />
                                         <p className='text-sm'>{e}</p>
                                          
                                          </td>
-                                    <td className='min-w-[600px] text-[16px] '>
-                                        <p className='hover:bg-white/20 max-w-min px-3'>
-
-                                        0XEWRTEYHD4565RETB945JB9R5K4GB945GK495EKRT909
-                                        </p>
-                                        </td>
-                                    <td className='text-[24px] '>
-                                    <p className='hover:bg-white/20 max-w-min px-3'>
-                                        265
-                                        </p>
-                                        </td>
+                                    <td className='min-w-[600px] text-[16px]'>0XEWRTEYHD4565RETB945JB9R5K4GB945GK495EKRT909</td>
+                                    <td className='text-[24px]'>265</td>
                                 </tr>
 
                                     )
