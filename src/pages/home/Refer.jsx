@@ -13,7 +13,7 @@ export default function Refer() {
         className="lg:h-full absolute right-0  my-auto w-1/2 lg:w-auto  lg:min-w-[30%] object-top object-cover "
         alt=""
       />
-      <div className="w-[75%] mx-auto py-20 space-y-20 relative z-10 scale-90">
+      <div className="w-[80%] mx-auto py-20 space-y-20 relative z-10 scale-90">
         <div className="flex items-start flex-wrap gap-10 2xl:gap-20">
           <div className="font-slant text-4xl lg:text-[40px]  max-w-xs ">
             <h3>
