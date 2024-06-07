@@ -13,7 +13,7 @@ export default function Refer() {
         className="lg:h-full absolute right-0  my-auto w-1/2 lg:w-auto  lg:min-w-[30%] object-top object-cover "
         alt=""
       />
-      <div className="w-[80%] mx-auto py-20 space-y-20 relative z-10">
+      <div className="w-[75%] mx-auto py-20 space-y-20 relative z-10">
         <div className="flex items-start flex-wrap gap-10 2xl:gap-20">
           <div className="font-slant text-4xl lg:text-[40px]  max-w-sm 2xl:max-w-lg">
             <h3>
@@ -93,7 +93,7 @@ export default function Refer() {
         </div>
 
         <div className="grid  lg:grid-cols-6 gap-6 2xl:gap-10">
-          <div className="p-5 flex flex-col justify-center items-center gap-3 home-red-box">
+          <div className="px-5 py-2 flex flex-col justify-center items-center gap-1 home-red-box">
             <img
               src="/images/home/red-logo.webp"
               width={60}
@@ -108,7 +108,7 @@ export default function Refer() {
               USDC
             </p>
           </div>
-          <div className="p-5 flex flex-col justify-center items-center gap-3 home-blue-box">
+          <div className="px-5 py-2 flex flex-col justify-center items-center gap-1 home-blue-box">
             <img
               src="/images/home/blue-logo.webp"
               width={60}
@@ -123,7 +123,7 @@ export default function Refer() {
               USDC
             </p>
           </div>
-          <div className="p-5 flex flex-col justify-center items-center gap-3 home-gold-box">
+          <div className="px-5 py-2 flex flex-col justify-center items-center gap-1 home-gold-box">
             <img
               src="/images/home/yellow-logo.webp"
               width={60}
@@ -139,13 +139,13 @@ export default function Refer() {
             </p>
           </div>
 
-          <div className="p-5 flex flex-col  gap-1 home-green-box lg:col-span-3 text-center lg:text-left">
+          <div className="px-5 py-2 flex flex-col  gap-1 home-green-box lg:col-span-3 text-center lg:text-left">
             <img
               src="/images/home/green-logos.png"
               className="w-full  lg:object-cover object-scale-down"
               alt=""
             />
-            <div className="flex flex-col lg:flex-row items-center lg:items-start gap-10 lg:gap-10 p-5">
+            <div className="flex flex-col lg:flex-row items-center lg:items-start gap-10 lg:gap-10 p-3">
               <div className="">
                 <p className="font-conthrax text-[8px] font-semibold">
                   {" "}

@@ -33,3 +33,7 @@ opacity: 1;
     transform: rotateY(0deg);
   }
 }
+
+svg .nav-wallet-connect:hover{
+  fill:#00FF4E;
+}
