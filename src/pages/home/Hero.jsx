@@ -1,3 +1,4 @@
+import { Icon } from '@iconify/react/dist/iconify.js'
 import { useWeb3Modal } from '@web3modal/wagmi/react'
 import React from 'react'
 import { useAccount } from 'wagmi'
@@ -23,18 +24,18 @@ export default function Hero()  {
                                     
                                     <div className="grid grid-cols-2 gap-3">
                                         
-                                        <div className="w-full col-span-full lg:col-span-1 home-hero-widget-stage1 p-5 space-y-1">
+                                        <div className="w-full col-span-full lg:col-span-1 home-hero-widget-stage1 p-3 space-y-1">
                                             <div className="flex justify-between items-center">
                                                 <p className='text-[10px] font-conthrax'>STAGE 1</p>
-                                                <p className='text-sm font-vcr'><span></span> Live</p>
+                                                <p className='text-sm font-vcr flex items-center gap-1'><span className='bg-[#00FF4E] inline-block h-1 w-1 rounded-full pulse-widget'></span> Live</p>
                                             </div>
                                             <p className='text-center font-vcr text-xl'>$0.0125</p>
                                         </div>
 
-                                        <div className="w-full col-span-full lg:col-span-1 home-hero-widget-stage2 p-5 space-y-1">
+                                        <div className="w-full col-span-full lg:col-span-1 home-hero-widget-stage2 p-3 space-y-1">
                                         <div className="flex justify-between items-center">
                                                 <p className='text-[10px] font-conthrax'>STAGE 2</p>
-                                                <p className='text-sm font-vcr'><span></span> 66.67%</p>
+                                                <p className='text-sm font-vcr flex items-center gap-1'><Icon icon={'tabler:triangle-filled'} className='trangle-widget h-[8px] w-[8px] text-[#00FF4E]' />  66.67%</p>
                                             </div>
                                             <p className='text-center font-vcr text-xl'>$0.0075</p>
                                         </div>
@@ -44,7 +45,10 @@ export default function Hero()  {
                                                     <p className='text-[10px] font-conthrax'>LISTING PRICE</p>
                                                     <p className='text-center font-vcr text-xl'>$0.0075</p>
                                                     </div>
-                                                    <p className='text-sm font-vcr'>566.67%</p>
+                                                    <p className='text-sm font-vcr flex items-center gap-2'>
+                                                    <Icon icon={'tabler:triangle-filled'} className='trangle-widget h-[10px] w-[10px] text-[#00FF4E]' />
+                                                        566.67%
+                                                        </p>
                                         </div>
 
 
@@ -64,7 +68,7 @@ export default function Hero()  {
 
                                     <div className="flex justify-between  font-vcr px-2 text-[12px]">
                                             <p className=''>$212,175.00</p>
-                                            <p>$450,000</p>
+                                            <p className='flex items-center gap-2'>$450,000 <img className='w-[11px]' src="/images/icons/flag.png" alt="" /></p>
                                     </div>
                                     </div>
 

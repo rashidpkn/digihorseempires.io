@@ -11,6 +11,7 @@ import Partners from "./Partners";
 import Media from "./Media";
 import Faq from "./Faq";
 import Button from "../../components/Button";
+import Refer2 from "./Refer2";
 
 export default function HomePage() {
   return (
@@ -18,6 +19,7 @@ export default function HomePage() {
       <Hero />
       <Welcome />
       <Refer />
+      <Refer2 />
       <Leaderboard/>
 
       <RoadMap/>

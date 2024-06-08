@@ -5,7 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        slant:['slant'],
+        conthrax:['conthrax'],
+        vcr:['vcr']
+      }
+    },
   },
   plugins: [],
 }
