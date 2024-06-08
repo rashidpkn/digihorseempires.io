@@ -102,8 +102,8 @@ export default function Refer2() {
           </div>
         </div>
 
-        <div className="grid  grid-cols-6 mt-[75px] 2xl:mt-[100px] gap-7 2xl:gap-10">
-          <div className="py-[15px] 2xl:py-5 pyx-[18px] 2xl:px-6 flex flex-col items-center border w-full rounded  home-red-box">
+        <div className="grid  grid-cols-6 mt-[75px] 2xl:mt-[100px] gap-6 2xl:gap-10">
+          <div className="py-[15px] 2xl:py-5 px-[18px] 2xl:px-6 flex flex-col items-center border w-full rounded  home-red-box">
             <img
               src="/images/home/red-logo.webp"
               className="w-[60px] 2xl:w-[80px]"
@@ -119,7 +119,7 @@ export default function Refer2() {
               <span></span> USDC
             </p>
           </div>
-          <div className="py-[15px] 2xl:py-5 pyx-[18px] 2xl:px-6 flex flex-col items-center border w-full rounded home-blue-box">
+          <div className="py-[15px] 2xl:py-5 px-[18px] 2xl:px-6 flex flex-col items-center border w-full rounded home-blue-box">
             <img
               src="/images/home/red-logo.webp"
               className="w-[60px] 2xl:w-[80px]"
@@ -135,7 +135,7 @@ export default function Refer2() {
               <span></span> USDC
             </p>
           </div>
-          <div className="py-[15px] 2xl:py-5 pyx-[18px] 2xl:px-6 flex flex-col items-center border w-full rounded home-gold-box">
+          <div className="py-[15px] 2xl:py-5 px-[18px] 2xl:px-6 flex flex-col items-center border w-full rounded home-gold-box">
             <img
               src="/images/home/red-logo.webp"
               className="w-[60px] 2xl:w-[80px]"
