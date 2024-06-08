@@ -20,8 +20,6 @@ opacity: 1;
 
 .logoAnim {
   animation: coinFlip 4s infinite ease-in-out;
-  box-shadow: 0px 0px 10px #00FF4E80;
-  border: 1px solid #00FF4E;
 }
 
 @keyframes coinFlip {

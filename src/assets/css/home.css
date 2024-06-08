@@ -80,7 +80,13 @@ box-shadow: 0px 0px 30px #FF000080;
 border: 2px solid #FF0000;
 border-radius: 4px;
 opacity: 1;
+cursor: pointer;
+transition-duration: 200ms;
 
+}
+
+.home-red-box:hover{
+  box-shadow: 0px 0px 60px #FF000080;
 }
 
 .home-blue-box{
@@ -89,8 +95,14 @@ opacity: 1;
   border: 2px solid #00CEFF;
   border-radius: 4px;
   opacity: 1;
+  cursor: pointer;
+  transition-duration: 200ms;
 
 }
+.home-blue-box:hover{
+  box-shadow: 0px 0px 60px #00CEFF80;
+}
+
 
 .home-gold-box{
   background: #FFEB0015 0% 0% no-repeat padding-box;
@@ -98,6 +110,11 @@ box-shadow: 0px 0px 30px #FFEB0080;
 border: 2px solid #FFEB00;
 border-radius: 4px;
 opacity: 1;
+cursor: pointer;
+transition-duration: 200ms;
+}
+.home-gold-box:hover{
+  box-shadow: 0px 0px 60px #FFEB0080;
 }
 
 .home-green-box{
@@ -106,6 +123,10 @@ box-shadow: 0px 0px 30px #00FF4E80;
 border: 2px solid #00FF4E;
 border-radius: 4px;
 opacity: 1;
+}
+
+.home-green-box:hover{
+  box-shadow: 0px 0px 60px #00FF4E80;
 }
 
 .home-leaderboard-bg{

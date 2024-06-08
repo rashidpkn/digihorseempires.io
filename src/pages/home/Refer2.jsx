@@ -7,7 +7,7 @@ export default function Refer2() {
     <section className="relative min-h-screen ">
       <img
         src="/images/home/hero-2.webp"
-        className="absolute top-0 -right-10 w-[40%] 2xl:w-auto"
+        className="absolute top-0 -right-10 w-[30%] "
         alt=""
       />
       .
@@ -56,7 +56,7 @@ export default function Refer2() {
                 className="hidden group-hover:block absolute top-0 w-full h-full"
                 alt=""
               />
-              <p className="text-[12px] 2xl:text-[16px] font-conthrax font-semibold">
+              <p className="text-[12px] 2xl:text-[16px] font-conthrax font-semibold group-hover:text-black relative z-10">
                 {" "}
                 {isConnected
                   ? address?.substring(0, 5) +
@@ -90,7 +90,7 @@ export default function Refer2() {
                 className="hidden group-hover:block absolute top-0 w-full h-full"
                 alt=""
               />
-              <p className="text-[12px] 2xl:text-[16px] font-conthrax font-semibold">
+              <p className="text-[12px] 2xl:text-[16px] font-conthrax font-semibold group-hover:text-black relative z-10">
                 {" "}
                 {isConnected
                   ? address?.substring(0, 5) +
@@ -109,13 +109,13 @@ export default function Refer2() {
               className="w-[60px] 2xl:w-[80px]"
               alt=""
             />
-            <p className="mt-[15px] 2xl:mt-5  font-conthrax text-[9px] 2xl:text-xs">
+            <p className="mt-[5px] 2xl:mt-[7.5px]  font-conthrax text-[9px] 2xl:text-xs">
               1ST PLACE{" "}
             </p>
-            <p className="mt-[7.5px] 2xl:mt-2.5 font-vcr text-[20px] 2xl:text-[36px]">
+            <p className="mt-[5px] 2xl:mt-[7.5px] font-vcr text-[20px] 2xl:text-[36px]">
               $500.00
             </p>
-            <p className="mt-[7.5px] 2xl:mt-2.5 font-vcr text-[12px] 2xl:text-[16px]">
+            <p className="mt-[5px] 2xl:mt-[7.5px] font-vcr text-[12px] 2xl:text-[16px]">
               <span></span> USDC
             </p>
           </div>
@@ -125,13 +125,13 @@ export default function Refer2() {
               className="w-[60px] 2xl:w-[80px]"
               alt=""
             />
-            <p className="mt-[15px] 2xl:mt-5  font-conthrax text-[9px] 2xl:text-xs">
-              1ST PLACE{" "}
+            <p className="mt-[5px] 2xl:mt-[7.5px]  font-conthrax text-[9px] 2xl:text-xs">
+              2ST PLACE{" "}
             </p>
-            <p className="mt-[7.5px] 2xl:mt-2.5 font-vcr text-[20px] 2xl:text-[36px]">
+            <p className="mt-[5px] 2xl:mt-[7.5px] font-vcr text-[20px] 2xl:text-[36px]">
               $500.00
             </p>
-            <p className="mt-[7.5px] 2xl:mt-2.5 font-vcr text-[12px] 2xl:text-[16px]">
+            <p className="mt-[5px] 2xl:mt-[7.5px] font-vcr text-[12px] 2xl:text-[16px]">
               <span></span> USDC
             </p>
           </div>
@@ -141,13 +141,13 @@ export default function Refer2() {
               className="w-[60px] 2xl:w-[80px]"
               alt=""
             />
-            <p className="mt-[15px] 2xl:mt-5  font-conthrax text-[9px] 2xl:text-xs">
-              1ST PLACE{" "}
+            <p className="mt-[5px] 2xl:mt-[7.5px]  font-conthrax text-[9px] 2xl:text-xs">
+              3ST PLACE{" "}
             </p>
-            <p className="mt-[7.5px] 2xl:mt-2.5 font-vcr text-[20px] 2xl:text-[36px]">
+            <p className="mt-[5px] 2xl:mt-[7.5px] font-vcr text-[20px] 2xl:text-[36px]">
               $500.00
             </p>
-            <p className="mt-[7.5px] 2xl:mt-2.5 font-vcr text-[12px] 2xl:text-[16px]">
+            <p className="mt-[5px] 2xl:mt-[7.5px] font-vcr text-[12px] 2xl:text-[16px]">
               <span></span> USDC
             </p>
           </div>
@@ -157,7 +157,7 @@ export default function Refer2() {
             <div className="py-[15px] 2xl:py-5 px-[18px] 2xl:px-6 mt-3 2xl:mt-4 flex justify-between items-end gap-16">
               <div className="">
                 <p className="font-conthrax text-[9px] 2xl:text-xs">
-                  1ST PLACE{" "}
+                  PLACES 4-10
                 </p>
                 <p className="font-vcr text-[20px] 2xl:text-[36px]">$500.00</p>
                 <p className="font-vcr text-[12px] 2xl:text-[16px]">
