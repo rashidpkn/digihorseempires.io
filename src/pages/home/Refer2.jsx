@@ -11,7 +11,7 @@ export default function Refer2() {
         alt=""
       />
       .
-      <div className="w-[75%] mx-auto py-[15%] relative z-10 ">
+      <div className="w-[75%] mx-auto py-5 relative z-10 ">
         <div className="flex gap-[75px] 2xl:gap-[106px] items-center">
           <h2 className="font-slant text-[42px] 2xl:text-[56px] leading-[1.3]">
             REFER FRIENDS <br />{" "}
@@ -31,7 +31,7 @@ export default function Refer2() {
           </p>
         </div>
 
-        <div className="mt-[75px] 2xl:mt-[100px] flex gap-20">
+        <div className="mt-14 2xl:mt-[100px] flex gap-20">
           <div className="max-w-[318px] 2xl:max-w-[425px] w-full">
             <div className="">
               <div className="flex gap-3">
@@ -102,7 +102,7 @@ export default function Refer2() {
           </div>
         </div>
 
-        <div className="grid  grid-cols-6 mt-[75px] 2xl:mt-[100px] gap-6 2xl:gap-10">
+        <div className="grid  grid-cols-6 mt-14 2xl:mt-[100px] gap-6 2xl:gap-10">
           <div className="py-[15px] 2xl:py-5 px-[18px] 2xl:px-6 flex flex-col items-center border w-full rounded  home-red-box">
             <img
               src="/images/home/red-logo.webp"

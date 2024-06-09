@@ -122,10 +122,9 @@ meaningful connections with players and enthusiasts alike.
       </div>
       <div className="space-y-5">
 
-      <h3 className="text-[2em] font-slant">
-      Fostering <span className='text-[#18ff04]'>Decentralization</span>: Our Team's <span className='text-[#18ff04]'>Commitment</span> to <br />
-Innovation  
-        </h3>
+      <h3 className="text-[42px] 2xl:text-[56px] font-slant text-center">Fostering <span className='text-[#18ff04]'>Decentralization</span>: Our Team's <span className='text-[#18ff04]'>Commitment</span> to 
+Innovation  </h3>
+      
             <p className="font-vcr">Our team operates under the principle of complete decentralization, ensuring that no
 single point of failure exists within our project. Each member brings a unique set of
 skills and expertise to the table, working collaboratively to develop and improve

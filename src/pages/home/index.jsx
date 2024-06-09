@@ -87,13 +87,15 @@ export default function HomePage() {
 
 {/* About us */}
 <div className="font-vcr">
-          <div className='fadeup rounded-3xl md:rounded-[100px] bg-[#1a2b2460] m-8 md:mx-32 md:mt-44 p-8 md:p-16 md:flex justify-between relative'>
-            <div>
+          <div className='fadeup rounded-3xl md:rounded-[100px] bg-[#1a2b2499] mx-8 my-2 md:mx-24 md:mt-24 p-8  md:flex justify-between relative'>
+            <div className="absolute inset-0 m-auto h-[75%] w-[75%]  blur-3xl glow-build   bg-[#53cc5e22]" />
+            <div className="relative">
               <div className='flex items-center'>
                 <img src="https://staging.digihorseempires.io/images/landing/footPrint.png" className='h-[60px] md:h-[100px] mr-4' />
                 <div>
-                  <p className='text-4xl md:text-[4em]  font-slant text-white'>Unleashing Profitability</p>
-                  <p className='text-4xl'>in Digital Gaming</p>
+                <h3 className="text-[42px] 2xl:text-[56px] font-slant text-center">Unleashing <span className='text-[#18ff04]'>Profitability</span></h3>
+                  
+                  <p className='text-[2em]'>in Digital Gaming</p>
                 </div>
               </div>
               <p className='text-[#d0e4c6] text-xl md:w-[90%] lg:w-[80%] my-8'>
