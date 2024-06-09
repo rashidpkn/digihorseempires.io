@@ -174,3 +174,21 @@ animation: purse-widget-key 1s infinite    linear;
 color: #00FF4E;
 
 }
+
+@keyframes glow-build {
+  0% {
+    transform: scale(1);
+}
+
+50% {
+  transform: scale(1.5);
+}
+
+100% {
+  transform: scale(1);
+} 
+}
+
+.glow-build{
+  animation: glow-build 1.5s infinite    linear;
+  }
