@@ -6,7 +6,7 @@ export default function Tokenomics() {
       <div className="bg-black/70">
 
       
-      <section className="w-[80%] mx-auto py-10 space-y-3">
+      <section className="w-[90%] lg:w-[80%] mx-auto py-10 space-y-3">
         <div className="space-y-1">
           <h3 className="text-[42px] 2xl:text-[56px] font-slant text-center">
           <span className='text-[#18ff04]'>Tokenomics</span> and Distribution

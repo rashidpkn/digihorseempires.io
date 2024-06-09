@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Terms() {
   return (
-    <section className="min-h-screen w-[80%] mx-auto py-10 space-y-20">
-      <div className="space-y-10 text-center lg:text-left">
+    <section className="min-h-screen w-[90%] lg:w-[80%] mx-auto py-10 space-y-20">
+      <div className="space-y-10 ">
         <h3 className="text-[42px] 2xl:text-[56px] font-slant text-center">Meet The <span className='text-[#18ff04]'> Team </span></h3>
         <h3 className="text-[2em] font-slant">
           Driving <span className='text-[#18ff04]'> Innovation </span> with Dedication and Expertise

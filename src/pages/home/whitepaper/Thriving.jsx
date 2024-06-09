@@ -6,12 +6,12 @@ export default function Thriving() {
         className="bg-no-repeat bg-contain bg-right"
         // style={{ backgroundImage: "url(/images/home/whitepaper/bg2.webp)" }}
       >
-        <section className="min-h-screen w-[80%] mx-auto py-10 space-y-20">
+        <section className="min-h-screen w-[90%] lg:w-[80%] mx-auto py-10 space-y-20">
           <div className="space-y-10">
             <h3 className="text-[42px] 2xl:text-[56px] font-slant text-center">
               Building a Thriving <span className='text-[#18ff04]'> Ecosystem </span>
             </h3>
-            <p className="font-vcr  max-w-4xl text-center lg:text-right">
+            <p className="font-vcr  max-w-4xl ">
               In DigiHorse Empires, we've developed a sustainable business model
               that ensures the longevity and prosperity of our platform while
               providing value to our players and stakeholders. Our revenue
@@ -21,7 +21,7 @@ export default function Thriving() {
             </p>
           </div>
 
-            <div className="bg-[#53cc5e30] w-full p-5 rounded-md text-center lg:text-left">
+            <div className="bg-[#53cc5e30] w-full p-5 rounded-md">
                 <h3 className="text-[2em] font-slant"><span className='text-[#18ff04]'> Key </span> Features</h3>
                 <div className="grid lg:grid-cols-2 gap-16 font-vcr mt-16">
                     <p>Race Entry Fees: <br />

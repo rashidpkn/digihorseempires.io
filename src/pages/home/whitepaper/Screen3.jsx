@@ -4,7 +4,7 @@ export default function Screen3() {
   return (
     <div className="py-10 ">
 
-    <section className=" w-[80%] mx-auto  space-y-20 flex flex-col justify-center text-center">
+    <section className="w-[90%] lg:w-[80%] mx-auto  space-y-20 flex flex-col justify-center lg:text-center">
     <div className="space-y-10">
     <h3 className="text-[42px] 2xl:text-[56px] font-slant">
     Creating <span className='text-[#18ff04]'> Value </span> for Players

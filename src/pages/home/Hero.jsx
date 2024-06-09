@@ -9,7 +9,7 @@ export default function Hero()  {
   return (
     <section className='home-hero min-h-screen bg-cover bg-[-200px] lg:bg-center text-white relative'>
                 
-            <div className="w-[80%] mx-auto  flex flex-col lg:flex-row gap-24 lg:gap-0  justify-between pt-24">
+            <div className="w-[90%] lg:w-[80%] mx-auto  flex flex-col lg:flex-row gap-24 lg:gap-0  justify-between pt-24">
                         <div className="text-center lg:text-left">
                             <p className='font-conthrax text-sm 2xl:text-xl'>WELCOME TO</p>
                             <h1 className='font-slant text-7xl 2xl:text-8xl'>DIGIHORSE EMPIRES</h1>

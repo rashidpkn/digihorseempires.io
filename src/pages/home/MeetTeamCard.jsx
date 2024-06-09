@@ -77,7 +77,7 @@ export default function MeetTeamCard() {
                         <div className='bg-gradient-to-tr from-[#1a2b24]  to-secondary  w-full h-full absolute block opacity-0 group-hover:opacity-100 transition-all duration-150' />
                         <div className='relative z-10 w-full p-3 group-hover:bg-transparent transition-all  duration-700 hover:h-full' >
                             <p className='text-4xl mb-4 text-gold text-left group-hover:text-center min-h-16 drop-shadow-lg font-slant'>
-                                <i className='w-[80%] h-20 bg-[#00000090] absolute -z-10 blur-xl group-hover:opacity-0 font-slant' />
+                                <i className='w-[90%] lg:w-[80%] h-20 bg-[#00000090] absolute -z-10 blur-xl group-hover:opacity-0 font-slant' />
                                 {team.name}
                             </p>
                             <p className='h-0 group-hover:h-auto opacity-0 group-hover:opacity-100  text-white text-sm'>{team.description} </p>

@@ -28,7 +28,7 @@ export default function HomePage() {
 
       <RoadMap/>
 
-      <p className='text-center w-[80%] text-sm md:text-lg text-[#d0e4c6] md:px-[10%] m-auto mt-12 font-vcr'>Step into the forefront of the Web3 gaming revolution with DigiHorse, where we're redefining the landscape of profitability and entertainment. As web3 gaming experiences unprecedented growth, we're pioneering a new era where players can not only enjoy immersive gameplay but also profit from their passion for gaming through blockchain technology. </p>
+      <p className='text-center w-[90%] lg:w-[80%] text-sm md:text-lg text-[#d0e4c6] md:px-[10%] m-auto mt-12 font-vcr'>Step into the forefront of the Web3 gaming revolution with DigiHorse, where we're redefining the landscape of profitability and entertainment. As web3 gaming experiences unprecedented growth, we're pioneering a new era where players can not only enjoy immersive gameplay but also profit from their passion for gaming through blockchain technology. </p>
 
       <p className='text-xl md:text-3xl font-bold my-8 text-center text-white mt-32 font-slant'>Seize the Opportunities</p>
         <div className='flex flex-col md:flex-row  md:justify-between px-8 lg:px-32   text-white '>
@@ -39,7 +39,7 @@ export default function HomePage() {
             </span>
             <div>
               <p className='text-3xl font-vcr'>NFT Wearables Marketplace</p>
-              <p className='w-[80%] mt-3 font-vcr'>
+              <p className='w-[90%] lg:w-[80%] mt-3 font-vcr'>
                 Dive into our vibrant marketplace and explore a wide range of NFT wearables to customize your horses and enhance their performance. From sleek saddles to stylish bridles, these digital accessories not only add flair to your horses but also serve as valuable assets that can be bought, sold, and traded for profit.
               </p>
             </div>
@@ -51,7 +51,7 @@ export default function HomePage() {
             </span>
             <div>
               <p className='text-3xl'>Renting Economy</p>
-              <p className='w-[80%] mt-3 '>Unlock the potential of the sharing economy by renting horses from other players. Whether you're looking for a speedy racer or a sturdy workhorse, our platform facilitates seamless transactions between owners and renters, allowing you to maximize your earnings and expand your equine empire.</p>
+              <p className='w-[90%] lg:w-[80%] mt-3 '>Unlock the potential of the sharing economy by renting horses from other players. Whether you're looking for a speedy racer or a sturdy workhorse, our platform facilitates seamless transactions between owners and renters, allowing you to maximize your earnings and expand your equine empire.</p>
             </div>
           </div>
 
@@ -61,7 +61,7 @@ export default function HomePage() {
             </span>
             <div>
               <p className='text-3xl'>Thrilling Tournaments</p>
-              <p className='w-[80%] mt-3 '>Immerse yourself in the adrenaline-fueled excitement of multiplayer tournaments, where players compete for prestigious titles and lucrative rewards. From daily races to championship events, our dynamic tournament system offers endless opportunities to showcase your skills, claim victory, and reap the rewards of your success.
+              <p className='w-[90%] lg:w-[80%] mt-3 '>Immerse yourself in the adrenaline-fueled excitement of multiplayer tournaments, where players compete for prestigious titles and lucrative rewards. From daily races to championship events, our dynamic tournament system offers endless opportunities to showcase your skills, claim victory, and reap the rewards of your success.
               </p>
             </div>
           </div>
@@ -96,7 +96,7 @@ export default function HomePage() {
                   <p className='text-4xl'>in Digital Gaming</p>
                 </div>
               </div>
-              <p className='text-[#d0e4c6] text-xl md:w-[80%] my-8'>
+              <p className='text-[#d0e4c6] text-xl md:w-[90%] lg:w-[80%] my-8'>
                 Digital gaming has evolved into a multi-billion-dollar industry, with exponential growth projected in the coming years. At DigiHorse, we're harnessing this momentum to empower players to monetize their gaming experiences like never before. Our innovative horse racing game, powered by blockchain technology, offers unparalleled opportunities for players to earn real profits while indulging in their love for equestrian sports.</p>
             </div>
             <div className='w-full'>

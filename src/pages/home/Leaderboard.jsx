@@ -3,7 +3,7 @@ import React from 'react'
 export default function Leaderboard() {
   return (
     <section className='w-full home-leaderboard-bg bg-no-repeat bg-cover text-white'>        
-            <div className="w-[80%] mx-auto px-[1%] min-h-screen  h-full flex justify-center items-center">
+            <div className="w-[90%] lg:w-[80%] mx-auto px-[1%] min-h-screen  h-full flex justify-center items-center">
                     <div className="home-leaderboard-table  bg-cover bg-no-repeat  space-y-5 w-full px-5">
 
                         <h2 className='font-slant text-[54px] '>Top EARNERS</h2>

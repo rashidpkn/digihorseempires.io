@@ -14,7 +14,7 @@ export default function Header()  {
     <header className='sticky top-0 z-50 '>
       <div className="bg-[#171717]">
 
-        <div className="w-[80%] mx-auto  py-4 flex  justify-between items-center text-white font-conthrax text-[8px] font-semibold ">
+        <div className="w-[90%] lg:w-[80%] mx-auto  py-4 flex  justify-between items-center text-white font-conthrax text-[8px] font-semibold ">
                 <img src="/images/logo/logo.webp" width={150} height={39.59} alt="" />
                 <div className="hidden lg:flex gap-1 flex-col items-center group">
                    <NavLink to={'/'} className={'group-hover:text-white text-white/70' }>ABOUT</NavLink>
