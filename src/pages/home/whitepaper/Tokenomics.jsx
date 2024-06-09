@@ -83,7 +83,7 @@ loyalty.
 </p>
 
       <div className="h-[17rem] w-[17rem] rounded-full  absolute inset-0 m-auto flex justify-center items-center ">
-      <img src="/images/home/logo.webp" class="max-w-[100px] 2xl:max-w-[200px] logoAnim2" alt="DigiHorse" />
+      <img src="/images/home/logo.webp" class="max-w-[100px]  logoAnim2" alt="DigiHorse" />
       <div className="w-12 h-12 absolute left-7 top-0">
         <img src="/images/home/whitepaper/arrow.png" className="rotate-[175deg]" alt="" />
       </div>
