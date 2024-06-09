@@ -12,6 +12,7 @@ import Media from "./Media";
 import Faq from "./Faq";
 import Button from "../../components/Button";
 import Refer2 from "./Refer2";
+import WhitePaper from "./whitepaper";
 
 export default function HomePage() {
   return (
@@ -20,6 +21,9 @@ export default function HomePage() {
       <Welcome />
       <Refer />
       <Refer2 />
+
+      <WhitePaper/>
+      
       <Leaderboard/>
 
       <RoadMap/>
