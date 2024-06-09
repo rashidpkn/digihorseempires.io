@@ -6,10 +6,10 @@ export default function Tokenomics() {
       <div className="bg-black/70">
 
       
-      <section className="w-[80%] mx-auto py-10 space-y-10">
-        <div className="space-y-5">
+      <section className="w-[80%] mx-auto py-10 space-y-3">
+        <div className="space-y-1">
           <h3 className="text-[42px] 2xl:text-[56px] font-slant text-center">
-            Tokenomics and Distribution
+          <span className='text-[#18ff04]'>Tokenomics</span> and Distribution
           </h3>
           <p className="font-vcr">
             DigiHorse Empires operates on a carefully designed tokenomics model,
@@ -19,8 +19,8 @@ export default function Tokenomics() {
           </p>
         </div>
 
-        <div className="relative h-[90vh] font-vcr">
-        <p className="max-w-md absolute top-0 left-0"><span className="text-[#15e303]"> Presale (40%) </span>: A significant portion of the
+        <div className="relative h-[80vh] font-vcr">
+        <p className="max-w-lg absolute top-0 left-0"><span className="text-[#15e303]"> Presale (40%) </span>: A significant portion of the
 token supply, totaling 450,000,000 DHRS, is
 allocated for the presale phase. This allows
 early supporters and investors to acquire
@@ -28,7 +28,7 @@ tokens at a favorable rate, providing
 crucial funding for the project's initial
 development and expansion.</p>
 
-<p className="max-w-md absolute top-0 right-0"><span className="text-[#15e303]"> Treasury (10%) </span>: A reserve of 112,500,000
+<p className="max-w-lg absolute top-0 right-0"><span className="text-[#15e303]"> Treasury (10%) </span>: A reserve of 112,500,000
 DHRS tokens, equivalent to 10% of the total
 supply, is allocated to the treasury. These
 tokens are earmarked for strategic
@@ -63,7 +63,7 @@ the platform.
 </p>
 
 
-<p className="max-w-md absolute bottom-0 left-0"><span className="text-[#15e303]"> Liquidity (15%)</span>: Ensuring sufficient liquidity
+<p className="max-w-lg absolute bottom-0 left-0"><span className="text-[#15e303]"> Liquidity (15%)</span>: Ensuring sufficient liquidity
 is crucial for a thriving ecosystem and
 seamless trading experience. Therefore,
 168,750,000 DHRS tokens, comprising 15% of the
@@ -72,7 +72,7 @@ to facilitate trading and price stability on
 supported exchanges.
 </p>
 
-<p className="max-w-md absolute bottom-0 right-0"><span className="text-[#15e303]"> Rewards (10%)</span>: To incentivize user
+<p className="max-w-lg absolute bottom-0 right-0"><span className="text-[#15e303]"> Rewards (10%)</span>: To incentivize user
 participation and engagement on the platform,
 112,500,000 DHRS tokens, representing 10% of
 the total supply, are allocated for rewards.

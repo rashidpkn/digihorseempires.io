@@ -7,7 +7,7 @@ export default function Refer() {
   const { isConnected, address } = useAccount();
 
   return (
-    <section className="text-white relative ">
+    <section className="text-white relative block lg:hidden ">
       <img
         src="/images/home/hero-2.webp"
         className="lg:h-full absolute right-0  my-auto w-1/2 lg:w-auto  lg:min-w-[30%] object-top object-cover "

@@ -9,9 +9,9 @@ export default function Thriving() {
         <section className="min-h-screen w-[80%] mx-auto py-10 space-y-20">
           <div className="space-y-10">
             <h3 className="text-[42px] 2xl:text-[56px] font-slant text-center">
-              Building a Thriving Ecosystem
+              Building a Thriving <span className='text-[#18ff04]'> Ecosystem </span>
             </h3>
-            <p className="font-vcr text-lg max-w-4xl">
+            <p className="font-vcr  max-w-4xl text-center lg:text-right">
               In DigiHorse Empires, we've developed a sustainable business model
               that ensures the longevity and prosperity of our platform while
               providing value to our players and stakeholders. Our revenue
@@ -21,10 +21,10 @@ export default function Thriving() {
             </p>
           </div>
 
-            <div className="bg-[#53cc5e30] w-full p-5 rounded-md">
-                <h3 className="text-[2em] font-slant">Key Features</h3>
-                <div className="grid grid-cols-2 gap-16 font-vcr mt-16">
-                    <p>Race Entry Fees:
+            <div className="bg-[#53cc5e30] w-full p-5 rounded-md text-center lg:text-left">
+                <h3 className="text-[2em] font-slant"><span className='text-[#18ff04]'> Key </span> Features</h3>
+                <div className="grid lg:grid-cols-2 gap-16 font-vcr mt-16">
+                    <p>Race Entry Fees: <br />
 Players pay entry fees to participate in
 races, contributing to the prize pool and
 generating revenue for the platform.
@@ -33,7 +33,7 @@ events, maintaining racing
 infrastructure, and supporting prize
 distributions.
 </p>
-                    <p>Transaction Fees:
+                    <p>Transaction Fees: <br />
 Every transaction conducted on the
 platform incurs a small fee, which goes
 towards covering operational costs,
@@ -43,7 +43,7 @@ of the platform. These fees are essential
 for facilitating smooth and secure
 transactions for players.
 </p>
-                    <p>NFT Sales:
+                    <p>NFT Sales: <br />
 The sale of NFT horses and related assets
 generates revenue for the platform, with
 a percentage of each sale contributing to
@@ -52,7 +52,7 @@ expansion. This revenue stream
 incentivizes the creation and trading of
 high-quality NFTs within the ecosystem.
 </p>
-                    <p>Breeding Fees:
+                    <p>Breeding Fees: <br />
 Breeding NFT horses involves a fee that
 players pay to access breeding services
 and utilize advanced genetic algorithms.
@@ -60,8 +60,9 @@ This revenue stream incentivizes breeding
 activities and contributes to the
 sustainability of the breeding ecosystem.
 </p>
-                    <p></p>
-                    <p>Ad Placements:
+                    <p 
+                    className='hidden lg:block'></p>
+                    <p>Ad Placements: <br />
 In-game advertising opportunities, such
 as ad placements on race tracks and
 within the game environment, provide

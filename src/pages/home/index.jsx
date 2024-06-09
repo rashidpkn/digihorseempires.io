@@ -19,7 +19,7 @@ export default function HomePage() {
     <main className="bg-black text-white">
       <Hero />
       <Welcome />
-      {/* <Refer /> */}
+      <Refer />
       <Refer2 />
 
       <WhitePaper/>

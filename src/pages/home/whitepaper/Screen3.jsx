@@ -7,7 +7,7 @@ export default function Screen3() {
     <section className=" w-[80%] mx-auto  space-y-20 flex flex-col justify-center text-center">
     <div className="space-y-10">
     <h3 className="text-[42px] 2xl:text-[56px] font-slant">
-    Creating Value for Players
+    Creating <span className='text-[#18ff04]'> Value </span> for Players
     </h3>
     <p className="font-vcr text-lg ">
     While generating revenue is essential for the sustainability of our platform,

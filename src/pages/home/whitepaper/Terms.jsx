@@ -3,10 +3,10 @@ import React from "react";
 export default function Terms() {
   return (
     <section className="min-h-screen w-[80%] mx-auto py-10 space-y-20">
-      <div className="space-y-10">
-        <h3 className="text-[42px] 2xl:text-[56px] font-slant text-center">Meet The Team</h3>
+      <div className="space-y-10 text-center lg:text-left">
+        <h3 className="text-[42px] 2xl:text-[56px] font-slant text-center">Meet The <span className='text-[#18ff04]'> Team </span></h3>
         <h3 className="text-[2em] font-slant">
-          Driving Innovation with Dedication and Expertise
+          Driving <span className='text-[#18ff04]'> Innovation </span> with Dedication and Expertise
         </h3>
         <p className="font-vcr">
           At DigiHorse Empires, our team is comprised of passionate individuals
@@ -21,9 +21,9 @@ export default function Terms() {
       <div className="space-y-10 p-5 bg-[#53cc5e30] rounded-md ">
         
         <div className="">
-          <div className="flex gap-20 items-center">
+          <div className="flex gap-20 items-center flex-col lg:flex-row">
             <div className="space-y-5">
-              <h3 className="text-[1.5em] font-slant ">The Stablemaster</h3>
+              <h3 className="text-[1.5em] font-slant ">The <span className='text-[#18ff04]'>Stablemaster </span></h3>
               <p className="font-vcr">
                 As our lead blockchain developer, the Stablemaster oversees the
                 technical development of DigiHorse Empires, ensuring the
@@ -34,15 +34,15 @@ export default function Terms() {
                 top-notch gameplay mechanics.
               </p>
             </div>
-            <img src="" className="w-48 h-48 border shrink-0" alt="" />
+            <img src="/images/deHorse/11.jpg" className="w-48 h-48 border shrink-0" alt="" />
           </div>
         </div>
 
         <div className="">
-          <div className="flex gap-20 items-center">
-            <img src="" className="w-48 h-48 border shrink-0" alt="" />
+          <div className="flex gap-20 items-center flex-col lg:flex-row">
+            <img src="/images/deHorse/22.jpg" className="w-48 h-48 border shrink-0 order-2 lg:order-1" alt="" />
             <div className="space-y-5">
-              <h3 className="text-[1.5em] font-slant ">The Race Strategist</h3>
+              <h3 className="text-[1.5em] font-slant ">The Race <span className='text-[#18ff04]'>Strategist </span></h3>
               <p className="font-vcr">
                 As our lead blockchain developer, the Stablemaster oversees the
                 technical development of DigiHorse Empires, ensuring the
@@ -58,9 +58,9 @@ export default function Terms() {
 
 
         <div className="">
-          <div className="flex gap-20 items-center">
+          <div className="flex gap-20 items-center flex-col lg:flex-row">
             <div className="space-y-5">
-              <h3 className="text-[1.5em] font-slant ">The Community Wrangler</h3>
+              <h3 className="text-[1.5em] font-slant ">The Community <span className='text-[#18ff04]'>Wrangler </span></h3>
               <p className="font-vcr">
               A skilled communicator and community builder, the
 Community Wrangler fosters a vibrant and supportive
@@ -72,15 +72,15 @@ adoption.
 
               </p>
             </div>
-            <img src="" className="w-48 h-48 border shrink-0" alt="" />
+            <img src="/images/deHorse/33.jpg" className="w-48 h-48 border shrink-0" alt="" />
           </div>
         </div>
 
         <div className="">
-          <div className="flex gap-20 items-center">
-            <img src="" className="w-48 h-48 border shrink-0" alt="" />
+          <div className="flex gap-20 items-center flex-col lg:flex-row">
+            <img src="/images/deHorse/11.jpg" className="w-48 h-48 border shrink-0 order-2 lg:order-1" alt="" />
             <div className="space-y-5">
-              <h3 className="text-[1.5em] font-slant ">The Security Guardian
+              <h3 className="text-[1.5em] font-slant ">The Security <span className='text-[#18ff04]'>Guardian</span>
 </h3>
               <p className="font-vcr">
               Dedicated to fortifying DigiHorse Empires infrastructure
@@ -97,9 +97,9 @@ against evolving threats.
 
 
         <div className="">
-          <div className="flex gap-20 items-center">
+          <div className="flex gap-20 items-center flex-col lg:flex-row">
             <div className="space-y-5">
-              <h3 className="text-[1.5em] font-slant ">The Mane Marketer</h3>
+              <h3 className="text-[1.5em] font-slant ">The Mane <span className='text-[#18ff04]'>Marketer </span></h3>
               <p className="font-vcr">
               With a keen eye for branding and a flair for promotion, the
 Mane Marketer leads the charge in marketing and outreach
@@ -111,7 +111,7 @@ meaningful connections with players and enthusiasts alike.
 
               </p>
             </div>
-            <img src="" className="w-48 h-48 border shrink-0" alt="" />
+            <img src="/images/deHorse/44.jpg" className="w-48 h-48 border shrink-0" alt="" />
           </div>
         </div>
 
@@ -120,7 +120,7 @@ meaningful connections with players and enthusiasts alike.
       <div className="space-y-5">
 
       <h3 className="text-[2em] font-slant">
-      Fostering Decentralization: Our Team's Commitment to <br />
+      Fostering <span className='text-[#18ff04]'>Decentralization</span>: Our Team's <span className='text-[#18ff04]'>Commitment</span> to <br />
 Innovation  
         </h3>
             <p className="font-vcr">Our team operates under the principle of complete decentralization, ensuring that no
