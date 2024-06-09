@@ -3,11 +3,14 @@ import React from 'react'
 export default function Thriving() {
   return (
     <div
-        className="bg-no-repeat bg-contain bg-right"
-        // style={{ backgroundImage: "url(/images/home/whitepaper/bg2.webp)" }}
+        className="bg-no-repeat bg-contain bg-right my-3"
+        style={{ backgroundImage: "url(/images/home/whitepaper/bg2.png)" }}
       >
-        <section className="min-h-screen w-[90%] lg:w-[80%] mx-auto py-10 space-y-20">
-          <div className="space-y-10">
+        <div className="bg-black/70">
+
+        
+        <section className="min-h-screen w-[90%] lg:w-[80%] mx-auto py-10 space-y-10">
+          <div className="space-y-5">
             <h3 className="text-[42px] 2xl:text-[56px] font-slant text-center">
               Building a Thriving <span className='text-[#18ff04]'> Ecosystem </span>
             </h3>
@@ -21,9 +24,9 @@ export default function Thriving() {
             </p>
           </div>
 
-            <div className="bg-[#53cc5e30] w-full p-5 rounded-md">
+            <div className="bg-[#53cc5e30] w-full p-5 rounded-2xl">
                 <h3 className="text-[2em] font-slant"><span className='text-[#18ff04]'> Key </span> Features</h3>
-                <div className="grid lg:grid-cols-2 gap-16 font-vcr mt-16">
+                <div className="grid lg:grid-cols-2 gap-16 font-vcr mt-10">
                     <p>Race Entry Fees: <br />
 Players pay entry fees to participate in
 races, contributing to the prize pool and
@@ -77,6 +80,7 @@ immersive gaming experience.
             </div>
 
         </section>
+        </div>
       </div>
   )
 }

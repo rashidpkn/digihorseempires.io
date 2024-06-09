@@ -18,7 +18,10 @@ export default function Terms() {
         </p>
       </div>
 
-      <div className="space-y-10 p-5 bg-[#53cc5e30] rounded-md ">
+    <div className="rounded-2xl bg-cover bg-no-repeat" style={{backgroundImage:'url(/images/home/whitepaper/bg5.png)'}}>
+
+    
+      <div className="space-y-10 p-5 bg-black/85 rounded-md " >
         
         <div className="">
           <div className="flex gap-20 items-center flex-col lg:flex-row">
@@ -34,13 +37,13 @@ export default function Terms() {
                 top-notch gameplay mechanics.
               </p>
             </div>
-            <img src="/images/deHorse/11.jpg" className="w-48 h-48 border shrink-0" alt="" />
+            <img src="/images/deHorse/11.jpg" className="w-48 h-48 shrink-0" alt="" />
           </div>
         </div>
 
         <div className="">
           <div className="flex gap-20 items-center flex-col lg:flex-row">
-            <img src="/images/deHorse/22.jpg" className="w-48 h-48 border shrink-0 order-2 lg:order-1" alt="" />
+            <img src="/images/deHorse/22.jpg" className="w-48 h-48 shrink-0" alt="" />
             <div className="space-y-5">
               <h3 className="text-[1.5em] font-slant ">The Race <span className='text-[#18ff04]'>Strategist </span></h3>
               <p className="font-vcr">
@@ -72,13 +75,13 @@ adoption.
 
               </p>
             </div>
-            <img src="/images/deHorse/33.jpg" className="w-48 h-48 border shrink-0" alt="" />
+            <img src="/images/deHorse/33.jpg" className="w-48 h-48 shrink-0" alt="" />
           </div>
         </div>
 
         <div className="">
           <div className="flex gap-20 items-center flex-col lg:flex-row">
-            <img src="/images/deHorse/11.jpg" className="w-48 h-48 border shrink-0 order-2 lg:order-1" alt="" />
+            <img src="/images/deHorse/11.jpg" className="w-48 h-48 shrink-0" alt="" />
             <div className="space-y-5">
               <h3 className="text-[1.5em] font-slant ">The Security <span className='text-[#18ff04]'>Guardian</span>
 </h3>
@@ -111,11 +114,11 @@ meaningful connections with players and enthusiasts alike.
 
               </p>
             </div>
-            <img src="/images/deHorse/44.jpg" className="w-48 h-48 border shrink-0" alt="" />
+            <img src="/images/deHorse/44.jpg" className="w-48 h-48 shrink-0" alt="" />
           </div>
         </div>
 
-
+        </div>
       </div>
       <div className="space-y-5">
 

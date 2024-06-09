@@ -6,8 +6,8 @@ export default function Vision() {
     className="bg-no-repeat bg-cover"
     style={{ backgroundImage: "url(/images/home/whitepaper/bg1.png)" }}
   >
-    <section className="w-[90%] lg:w-[80%] mx-auto py-5 space-y-20 lg:text-center min-h-screen flex flex-col justify-center items-center ">
-      <div className="space-y-10">
+    <section className="w-[90%] lg:w-[80%] mx-auto py-8 space-y-5 lg:text-center  flex flex-col justify-center items-center ">
+      <div className="space-y-3">
         <h3 className="text-[42px] 2xl:text-[56px] font-slant text-center">Our  <span className='text-[#18ff04]'> Vision </span></h3>
         <p className="font-vcr  max-w-3xl bg-[#53cc5e10] p-3 rounded-xl">
           We envision a world where players can indulge their passion for
@@ -19,7 +19,7 @@ export default function Vision() {
         </p>
       </div>
 
-      <div className="space-y-10">
+      <div className="space-y-3">
         <h3 className="text-[42px] 2xl:text-[56px] font-slant text-center">Our <span className='text-[#18ff04]'>Mission </span></h3>
         <p className="font-vcr  max-w-3xl bg-[#53cc5e10] p-3 rounded-xl">
           Our mission is to create an immersive and rewarding gaming
