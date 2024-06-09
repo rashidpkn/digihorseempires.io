@@ -74,14 +74,14 @@ export default function HomePage() {
 
 
 
-        {/* sci-fi-huds */}
-        <h3 className='text-center text-4xl md:text-[4em] mt-32 font-slant text-white'>Building a Thriving Ecosystem</h3>
+        {/* sci-fi-huds
+    //     <h3 className='text-center text-4xl md:text-[4em] mt-32 font-slant text-white'>Building a Thriving Ecosystem</h3>
 
-        <p className='font-vcr text-center text-lg text-[#d0e4c6] z-10 relative md:w-[60%] m-auto px-6 leading-5 md:mt-6 hidden md:block'>
-          At DigiHorse, we've created a comprehensive ecosystem that encompasses every aspect of the horse racing experience.
-        </p>
+    //     <p className='font-vcr text-center text-lg text-[#d0e4c6] z-10 relative md:w-[60%] m-auto px-6 leading-5 md:mt-6 hidden md:block'>
+    //       At DigiHorse, we've created a comprehensive ecosystem that encompasses every aspect of the horse racing experience.
+    //     </p>
 
-    <Ecosystem/>
+    // <Ecosystem/> */}
 
 
 
@@ -136,13 +136,13 @@ export default function HomePage() {
           </div>
         </div>
 
-        <Tokenomics />
+        {/* <Tokenomics /> */}
 
 
-
+{/* 
         <section className='' id="path_team">
           <MeetTeamCard />
-        </section>
+        </section> */}
 
         <section className='md:mt-60' id="path_partners">
           <Partners />

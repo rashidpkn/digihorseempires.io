@@ -1,8 +1,9 @@
 import React from 'react'
+import Particles from '../Particles'
 
 export default function Screen3() {
   return (
-    <div className="py-10 ">
+    <div className="py-10 relative">
 
     <section className="w-[90%] lg:w-[80%] mx-auto  space-y-20 flex flex-col justify-center lg:text-center">
     <div className="space-y-10">
@@ -26,6 +27,9 @@ and redefine the way players interact with digital assets and virtual worlds.
 
     </section>
     {/* <img src="/images/home/whitepaper/bg3.webp" className="w-full  object-top object-cover" alt="" /> */}
+    <Particles className={`hidden md:block bg-blend-multiply absolute -bottom-24 left-[10%] bg-transparent w-[200px] h-[300px]`} width={200} height={300} />
+
+<Particles className={`hidden md:block bg-blend-multiply absolute -bottom-12 right-[15%] bg-transparent w-[200px] h-[300px]`} width={200} height={300} />
 </div>
   )
 }
