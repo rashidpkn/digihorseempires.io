@@ -151,7 +151,7 @@ function RoadMap() {
             {/* for mobile only */}
             <img className={`md:hidden w-[40px]`} src="./images/landing/footPrint.png" />
             {/* title */}
-            <p className='text-2xl md:text-[2.8em] text-white my-4 leading-[1em] font-conthrax'>{card.title}</p>
+            <p className='text-[2em]  text-white my-4 leading-[1em] font-conthrax'>{card.title}</p>
             {/* contents */}
             {/* <p className='text-[#b8adc2] text-xl'>{card.content}</p> */}
             <ul className=''>
