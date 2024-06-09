@@ -8,7 +8,7 @@ export default function Thriving() {
       >
         <section className="min-h-screen w-[80%] mx-auto py-10 space-y-20">
           <div className="space-y-10">
-            <h3 className="text-[4em] font-slant text-center">
+            <h3 className="text-[42px] 2xl:text-[56px] font-slant text-center">
               Building a Thriving Ecosystem
             </h3>
             <p className="font-vcr text-lg max-w-4xl">

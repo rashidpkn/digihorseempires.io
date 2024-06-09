@@ -4,7 +4,7 @@ export default function Terms() {
   return (
     <section className="min-h-screen w-[80%] mx-auto py-10 space-y-20">
       <div className="space-y-10">
-        <h3 className="text-[4em] font-slant text-center">Meet The Team</h3>
+        <h3 className="text-[42px] 2xl:text-[56px] font-slant text-center">Meet The Team</h3>
         <h3 className="text-[2em] font-slant">
           Driving Innovation with Dedication and Expertise
         </h3>
