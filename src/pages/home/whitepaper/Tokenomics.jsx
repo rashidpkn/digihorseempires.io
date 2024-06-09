@@ -21,7 +21,7 @@ export default function Tokenomics() {
 
         <div className="relative h-[80vh] font-vcr">
         <p className="max-w-lg bg-[#53cc5e30] p-3 rounded-xl absolute top-0 left-0">
-          <div className="absolute inset-0 m-auto h-[75%] w-[75%]  blur-xl glow-build   bg-[#53cc5e44]" />
+          <div className="absolute inset-0 m-auto h-[100%] w-[100%]  blur-3xl glow-build   bg-[#53cc5e55]" />
            
           
           <span className="text-[#15e303]"> Presale (40%) </span>: A significant portion of the
@@ -33,7 +33,7 @@ crucial funding for the project's initial
 development and expansion.</p>
 
 <p className="max-w-lg absolute bg-[#53cc5e30] p-3 rounded-xl top-0 right-0">
-<div className="absolute inset-0 m-auto h-20 w-20  blur-lg glow-build  rounded-full bg-[#53cc5eaa]" />
+<div className="absolute inset-0 m-auto h-[100%] w-[100%]  blur-3xl glow-build   bg-[#53cc5e77]" />
   <span className="text-[#15e303]"> Treasury (10%) </span>: A reserve of 112,500,000
 DHRS tokens, equivalent to 10% of the total
 supply, is allocated to the treasury. These
@@ -43,7 +43,9 @@ future expansion plans, providing financial
 stability and flexibility for the project.</p>
 
 
-<p className="max-w-xs absolute bg-[#53cc5e30] p-3 rounded-xl top-[50%] left-0 transform  -translate-y-1/2"><span className="text-[#15e303]">Team (15%)</span>: To incentivize and
+<p className="max-w-xs absolute bg-[#53cc5e30] p-3 rounded-xl top-[50%] left-0 transform  -translate-y-1/2">
+<div className="absolute inset-0 m-auto h-[75%] w-[75%]  blur-3xl glow-build   bg-[#53cc5e55]" />
+  <span className="text-[#15e303]">Team (15%)</span>: To incentivize and
 reward the dedicated team
 behind DigiHorse Empires,
 168,750,000 DHRS tokens,
@@ -55,7 +57,9 @@ continued commitment to the
 project's success.
 </p>
 
-<p className="max-w-xs absolute bg-[#53cc5e30] p-3 rounded-xl top-[50%] right-0  transform  -translate-y-1/2"><span className="text-[#15e303]"> Marketing (10%) </span>: Effective
+<p className="max-w-xs absolute bg-[#53cc5e30] p-3 rounded-xl top-[50%] right-0  transform  -translate-y-1/2">
+<div className="absolute inset-0 m-auto h-[50%] w-[50%]  blur-3xl glow-build   bg-[#53cc5e55]" />
+  <span className="text-[#15e303]"> Marketing (10%) </span>: Effective
 marketing and outreach are
 essential for driving adoption
 and engagement within the

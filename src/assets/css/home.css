@@ -177,15 +177,18 @@ color: #00FF4E;
 
 @keyframes glow-build {
   0% {
-    transform: scale(1);
+    transform: scale(0.1);
+    opacity: 0;
 }
 
 50% {
-  transform: scale(1.5);
+  transform: scale(1);
+  opacity: 1;
 }
 
 100% {
-  transform: scale(1);
+  transform: scale(0.1);
+  opacity: 0;
 } 
 }
 
