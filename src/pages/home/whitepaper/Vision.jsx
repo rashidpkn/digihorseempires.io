@@ -6,7 +6,7 @@ export default function Vision() {
     className="bg-no-repeat bg-cover"
     style={{ backgroundImage: "url(/images/home/whitepaper/bg1.png)" }}
   >
-    <section className="w-[80%] mx-auto py-5 space-y-20 text-center min-h-screen flex flex-col justify-center items-center">
+    <section className="w-[90%] lg:w-[80%] mx-auto py-5 space-y-20 text-center min-h-screen flex flex-col justify-center items-center">
       <div className="space-y-10">
         <h3 className="text-[42px] 2xl:text-[56px] font-slant">Our  <span className='text-[#18ff04]'> Vision </span></h3>
         <p className="font-vcr  max-w-3xl bg-[#53cc5e10] p-3 rounded-xl">

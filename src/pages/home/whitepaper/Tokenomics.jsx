@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Tokenomics() {
   return (
-    <div className="bg-no-repeat bg-right" style={{backgroundImage:'url(/images/home/whitepaper/bg4.jpg)'}}>
+    <div className="bg-no-repeat bg-right hidden lg:block" style={{backgroundImage:'url(/images/home/whitepaper/bg4.jpg)'}}>
       <div className="bg-black/70">
 
       
