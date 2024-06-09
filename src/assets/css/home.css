@@ -190,5 +190,5 @@ color: #00FF4E;
 }
 
 .glow-build{
-  animation: glow-build 1.5s infinite    linear;
+  animation: glow-build 2s infinite    ease-in-out;
   }

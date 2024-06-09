@@ -21,7 +21,7 @@ export default function Tokenomics() {
 
         <div className="relative h-[80vh] font-vcr">
         <p className="max-w-lg bg-[#53cc5e30] p-3 rounded-xl absolute top-0 left-0">
-          <div className="absolute inset-0 m-auto h-20 w-20  blur-xl glow-build  rounded-full bg-[#53cc5eaa]" />
+          <div className="absolute inset-0 m-auto h-[75%] w-[75%]  blur-xl glow-build   bg-[#53cc5e44]" />
            
           
           <span className="text-[#15e303]"> Presale (40%) </span>: A significant portion of the
