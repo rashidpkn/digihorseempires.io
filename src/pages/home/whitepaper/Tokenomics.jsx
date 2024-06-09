@@ -19,9 +19,9 @@ export default function Tokenomics() {
           </p>
         </div>
 
-        <div className="relative h-[80vh] font-vcr">
+        <div className="relative h-[85vh] font-vcr">
         <p className="max-w-lg bg-[#53cc5e30] p-3 rounded-xl absolute top-0 left-0">
-          <div className="absolute inset-0 m-auto h-[100%] w-[100%]  blur-3xl glow-build   bg-[#53cc5e55]" />
+          <div className="absolute inset-0 m-auto h-[75%] w-[75%]  blur-3xl glow-build   bg-[#53cc5e44]" />
            
           
           <span className="text-[#15e303]"> Presale (40%) </span>: A significant portion of the
@@ -33,7 +33,7 @@ crucial funding for the project's initial
 development and expansion.</p>
 
 <p className="max-w-lg absolute bg-[#53cc5e30] p-3 rounded-xl top-0 right-0">
-<div className="absolute inset-0 m-auto h-[100%] w-[100%]  blur-3xl glow-build   bg-[#53cc5e77]" />
+<div className="absolute inset-0 m-auto h-[75%] w-[75%]  blur-3xl glow-build   bg-[#53cc5e44]" />
   <span className="text-[#15e303]"> Treasury (10%) </span>: A reserve of 112,500,000
 DHRS tokens, equivalent to 10% of the total
 supply, is allocated to the treasury. These
@@ -44,7 +44,7 @@ stability and flexibility for the project.</p>
 
 
 <p className="max-w-xs absolute bg-[#53cc5e30] p-3 rounded-xl top-[50%] left-0 transform  -translate-y-1/2">
-<div className="absolute inset-0 m-auto h-[75%] w-[75%]  blur-3xl glow-build   bg-[#53cc5e55]" />
+<div className="absolute inset-0 m-auto h-[75%] w-[75%]  blur-3xl glow-build   bg-[#53cc5e44]" />
   <span className="text-[#15e303]">Team (15%)</span>: To incentivize and
 reward the dedicated team
 behind DigiHorse Empires,
@@ -58,7 +58,7 @@ project's success.
 </p>
 
 <p className="max-w-xs absolute bg-[#53cc5e30] p-3 rounded-xl top-[50%] right-0  transform  -translate-y-1/2">
-<div className="absolute inset-0 m-auto h-[50%] w-[50%]  blur-3xl glow-build   bg-[#53cc5e55]" />
+<div className="absolute inset-0 m-auto h-[75%] w-[75%]  blur-3xl glow-build   bg-[#53cc5e44]" />
   <span className="text-[#15e303]"> Marketing (10%) </span>: Effective
 marketing and outreach are
 essential for driving adoption
@@ -73,7 +73,9 @@ the platform.
 </p>
 
 
-<p className="max-w-lg absolute bg-[#53cc5e30] p-3 rounded-xl bottom-0 left-0"><span className="text-[#15e303]"> Liquidity (15%)</span>: Ensuring sufficient liquidity
+<p className="max-w-lg absolute bg-[#53cc5e30] p-3 rounded-xl bottom-0 left-0">
+<div className="absolute inset-0 m-auto h-[75%] w-[75%]  blur-3xl glow-build   bg-[#53cc5e44]" />
+  <span className="text-[#15e303]"> Liquidity (15%)</span>: Ensuring sufficient liquidity
 is crucial for a thriving ecosystem and
 seamless trading experience. Therefore,
 168,750,000 DHRS tokens, comprising 15% of the
@@ -82,7 +84,9 @@ to facilitate trading and price stability on
 supported exchanges.
 </p>
 
-<p className="max-w-lg absolute bg-[#53cc5e30] p-3 rounded-xl bottom-0 right-0"><span className="text-[#15e303]"> Rewards (10%)</span>: To incentivize user
+<p className="max-w-lg absolute bg-[#53cc5e30] p-3 rounded-xl bottom-0 right-0">
+<div className="absolute inset-0 m-auto h-[75%] w-[75%]  blur-3xl glow-build   bg-[#53cc5e44]" />
+  <span className="text-[#15e303]"> Rewards (10%)</span>: To incentivize user
 participation and engagement on the platform,
 112,500,000 DHRS tokens, representing 10% of
 the total supply, are allocated for rewards.
