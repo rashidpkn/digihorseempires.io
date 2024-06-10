@@ -4,7 +4,7 @@ import { useAccount } from "wagmi";
 export default function Refer2() {
   const { isConnected, address } = useAccount();
   return (
-    <section className="relative min-h-screen hidden lg:block">
+    <section className="relative py-5 hidden lg:block">
       <img
         src="/images/home/hero-2.webp"
         className="absolute top-0 -right-10 w-[30%] "

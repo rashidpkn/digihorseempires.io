@@ -97,7 +97,7 @@ const Tokenomics = () => {
 
 
     return (
-        <section className='md:h-[80vh] md:mb-64  relative' id="path_roadmap">
+        <section className='md:h-[80vh]   relative' id="path_roadmap">
             <h3 className='text-center text-4xl md:text-[4em] mt-12 font-slant tokonomics_text_target mb-16 text-white'>TOKENOMICS</h3>
             <div id="chartdiv" className="min-h-[60vh]"></div>
             <div className='w-[15vw] h-[15vw] bg-primary absolute bottom-[20%] left-[45%] blur-[120px] -z-40' />
