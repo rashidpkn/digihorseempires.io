@@ -1,5 +1,8 @@
 @import url(./assets/css/home.css);
 @import url(./assets/css/font.css);
+/* To enable  tokenomic arrow animation ,Un commond below line*/
+/* @import url(./assets/css/arrow-animations.css); */
+
 
 @tailwind base;
 @tailwind components;

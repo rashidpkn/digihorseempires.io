@@ -1,0 +1,96 @@
+.arrow-1{
+    animation: arrow-1 1s ease-in-out  infinite ;
+  }
+  
+  @keyframes arrow-1 {
+    0%{
+      transform: translate(0, 0);
+    }
+    50%{
+      transform: translate(-10px, -10px);
+    }
+    100%{
+      transform: translate(0, 0);
+    }
+  }
+  
+  .arrow-2{
+    animation: arrow-2 1s ease-in-out  infinite ;
+  }
+  
+  @keyframes arrow-2 {
+    0%{
+      transform: translate(0, 0);
+    }
+    50%{
+      transform: translate(10px, -10px);
+    }
+    100%{
+      transform: translate(0, 0);
+    }
+  }
+  
+  
+  .arrow-3{
+  animation: arrow-3 1s ease-in-out  infinite ;
+  }
+  
+  @keyframes arrow-3 {
+      0%{
+        transform: translateX(0px);
+      }
+      50%{
+        transform: translateX(-10px);
+      }
+      100%{
+        transform: translateX(0px);
+      }
+  }
+  
+  .arrow-4{
+    animation: arrow-4 1s ease-in-out  infinite ;
+    }
+    
+    @keyframes arrow-4 {
+        0%{
+          transform: translateX(0px);
+        }
+        50%{
+          transform: translateX(10px);
+        }
+        100%{
+          transform: translateX(0px);
+        }
+    }
+  
+    .arrow-5{
+      animation: arrow-5 1s ease-in-out  infinite ;
+    }
+    
+    @keyframes arrow-5 {
+      0%{
+        transform: translate(0, 0);
+      }
+      50%{
+        transform: translate(-10px, 10px);
+      }
+      100%{
+        transform: translate(0, 0);
+      }
+    }
+    
+    .arrow-6{
+      animation: arrow-6 1s ease-in-out  infinite ;
+    }
+    
+    @keyframes arrow-6 {
+      0%{
+        transform: translate(0, 0);
+      }
+      50%{
+        transform: translate(10px, 10px);
+      }
+      100%{
+        transform: translate(0, 0);
+      }
+    }

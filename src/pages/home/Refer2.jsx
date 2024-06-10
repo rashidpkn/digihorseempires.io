@@ -45,7 +45,7 @@ export default function Refer2() {
               </p>
             </div>
 
-            <button className="mt-[30px] 2xlmt-[40px] relative w-full h-[50px] group">
+            <button className="mt-[30px] 2xlmt-[40px] relative w-full h-[50px] group font-vcr">
               <img
                 src="/button/light-white-connect.png"
                 className="group-hover:hidden absolute top-0 w-full h-full"
@@ -56,7 +56,7 @@ export default function Refer2() {
                 className="hidden group-hover:block absolute top-0 w-full h-full"
                 alt=""
               />
-              <p className="text-[12px] 2xl:text-[16px] font-conthrax font-semibold group-hover:text-black relative z-10">
+              <p className="text-[12px] 2xl:text-[16px] font-vcr font-semibold group-hover:text-black relative z-10">
                 {" "}
                 {isConnected
                   ? address?.substring(0, 5) +
@@ -86,7 +86,7 @@ export default function Refer2() {
               <div className="flex gap-4">
               <p className="font-vcr text-[38px]">* * * *</p>
               <button
-                className="font-conthrax relative group text-xs"
+                className="font-vcr relative group text-xs "
                 onClick={() => {}}
               >
                 <img src="/button/share-light-white.png" className='group-hover:hidden absolute top-0 w-full h-full' alt="" />

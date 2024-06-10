@@ -98,24 +98,31 @@ loyalty.
 
       <div className="h-[17rem] w-[17rem] rounded-full  absolute inset-0 m-auto flex justify-center items-center ">
       <img src="/images/home/logo.webp" class="max-w-[100px]  logoAnim" alt="DigiHorse" />
-      <div className="w-12 h-12 absolute left-7 top-0">
+      
+      <div className="w-12 h-12 absolute left-7 top-0 arrow-1">
         <img src="/images/home/whitepaper/arrow.png" className="rotate-[175deg]" alt="" />
       </div>
-      <div className="w-12 h-12 absolute right-7 top-0">
+
+      <div className="w-12 h-12 absolute right-7 top-0 arrow-2">
         <img src="/images/home/whitepaper/arrow.png" className="rotate-[-100deg]" alt="" />
       </div>
-      <div className="w-12 h-12 absolute left-0">
+      
+      <div className="w-12 h-12 absolute left-0 arrow-3">
         <img src="/images/home/whitepaper/arrow.png" className="rotate-[127deg]" alt="" />
       </div>
-      <div className="w-12 h-12 absolute right-0">
+
+      <div className="w-12 h-12 absolute right-0 arrow-4">
         <img src="/images/home/whitepaper/arrow.png" className="rotate-[-51deg]" alt="" />
       </div>
-      <div className="w-12 h-12 absolute left-7 bottom-0">
+
+      <div className="w-12 h-12 absolute left-7 bottom-0 arrow-5">
         <img src="/images/home/whitepaper/arrow.png" className="rotate-[80deg]" alt="" />
       </div>
-      <div className="w-12 h-12 absolute right-7 bottom-0">
+
+      <div className="w-12 h-12 absolute right-7 bottom-0 arrow-6">
         <img src="/images/home/whitepaper/arrow.png"  alt="" />
       </div>
+
       </div>
 
         </div>
