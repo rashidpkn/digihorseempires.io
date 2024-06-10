@@ -153,7 +153,7 @@ function RoadMap() {
             <div className={` w-[200px] h-[200px] bg-[#9ae89d] blur-[50px] opacity-30  absolute bottom-0 translate-x-12 -translate-y-8 -z-10`} />
 
             {/* for mobile only */}
-            <img className={`md:hidden w-[40px]`} src="./images/landing/footPrint.png" />
+            <img className={`md:hidden w-[40px]`} src="https://staging.digihorseempires.io/images/landing/footPrint.png" />
             {/* title */}
             <p className='text-[2em]  text-white my-4 leading-[1em] font-slant'>{card.title}</p>
             {/* contents */}

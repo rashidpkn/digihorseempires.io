@@ -2,6 +2,7 @@ import { Icon } from '@iconify/react/dist/iconify.js'
 import { useWeb3Modal } from '@web3modal/wagmi/react'
 import React from 'react'
 import { useAccount } from 'wagmi'
+import Widget from './widget'
 
 export default function Hero()  {
     const { open } = useWeb3Modal()
@@ -15,7 +16,7 @@ export default function Hero()  {
                             <h1 className='font-slant text-7xl 2xl:text-8xl'>DIGIHORSE EMPIRES</h1>
                             <p className='font-conthrax text-sm 2xl:text-xl'>RIDING THE WAVE OF THE WEB3 GAMING REVOLUTION</p>
                         </div>
-                        <div className="relative max-w-sm w-full shrink-0">
+                        {/* <div className="relative max-w-sm w-full shrink-0">
 
                         <div className="absolute w-3 h-[1px] nav-link top-3 mx-auto inset-x-0 z-10"></div>
                             <img src="/images/home/widget-box.svg" height={'100%'} className='absolute scale-110 object-cover w-full h-full ' alt="" />
@@ -85,7 +86,12 @@ export default function Hero()  {
                             <p className='text-center font-vcr text-sm'>Don't have an account? <span className='text-[#00FF4E]'>Register</span></p>
 
                         </div>
-                        </div>
+                        </div> */}
+
+
+                    <Widget/>
+
+
             </div>
 
             

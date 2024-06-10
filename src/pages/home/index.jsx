@@ -18,15 +18,15 @@ export default function HomePage() {
   return (
     <main className="bg-black text-white">
       <Hero />
-      <Welcome />
-      <Refer />
-      <Refer2 />
+      {/* <Welcome /> */}
+      {/* <Refer />
+      <Refer2 /> */}
 
-      <WhitePaper/>
+      {/* <WhitePaper/> */}
       
-      <Leaderboard/>
+      {/* <Leaderboard/> */}
 
-      <RoadMap/>
+      
 
       <p className='text-center w-[90%] lg:w-[80%] text-sm md:text-lg text-[#d0e4c6] md:px-[10%] m-auto mt-12 font-vcr'>Step into the forefront of the Web3 gaming revolution with DigiHorse, where we're redefining the landscape of profitability and entertainment. As web3 gaming experiences unprecedented growth, we're pioneering a new era where players can not only enjoy immersive gameplay but also profit from their passion for gaming through blockchain technology. </p>
 
@@ -72,16 +72,22 @@ export default function HomePage() {
 
 
 
+ <Refer />
+      <Refer2 />
+
+      
+      
+      <Leaderboard/>
 
 
-        {/* sci-fi-huds
-    //     <h3 className='text-center text-4xl md:text-[4em] mt-32 font-slant text-white'>Building a Thriving Ecosystem</h3>
+        {/* sci-fi-huds */}
+      <h3 className='text-center text-4xl md:text-[4em] mt-32 font-slant text-white'>Building a Thriving Ecosystem</h3>
 
-    //     <p className='font-vcr text-center text-lg text-[#d0e4c6] z-10 relative md:w-[60%] m-auto px-6 leading-5 md:mt-6 hidden md:block'>
-    //       At DigiHorse, we've created a comprehensive ecosystem that encompasses every aspect of the horse racing experience.
-    //     </p>
+         <p className='font-vcr text-center text-lg text-[#d0e4c6] z-10 relative md:w-[60%] m-auto px-6 leading-5 md:mt-6 hidden md:block'>
+           At DigiHorse, we've created a comprehensive ecosystem that encompasses every aspect of the horse racing experience.
+         </p>
 
-    // <Ecosystem/> */}
+    <Ecosystem/>
 
 
 
@@ -144,13 +150,15 @@ export default function HomePage() {
           </div>
         </div>
 
-        {/* <Tokenomics /> */}
+        <RoadMap/>
+
+        <Tokenomics />
 
 
-{/* 
+
         <section className='' id="path_team">
           <MeetTeamCard />
-        </section> */}
+        </section>
 
         <section className='md:mt-60' id="path_partners">
           <Partners />
