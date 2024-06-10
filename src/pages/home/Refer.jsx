@@ -20,7 +20,7 @@ export default function Refer() {
               REFER FRIENDS{" "}
               <span className="text-7xl lg:text-[60px] text-[#00FF4E]">
                 {" "}
-                EARN DIGI{" "}
+                EARN <span className="font-conthrax">$</span>DIGI{" "}
               </span>
             </h3>
           </div>

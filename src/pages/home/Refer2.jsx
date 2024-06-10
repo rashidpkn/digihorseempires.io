@@ -15,8 +15,8 @@ export default function Refer2() {
         <div className="flex gap-[75px] 2xl:gap-[106px] items-center">
           <h2 className="font-slant text-[42px] 2xl:text-[56px] leading-[1.3]">
             REFER FRIENDS <br />{" "}
-            <span className="text-[60px] 2xl:text-[80px] text-[#00FF4E]">
-              EARN DIGI{" "}
+            <span className="text-[60px] 2xl:text-[80px] text-[#00FF4E] ">
+              EARN <span className="font-conthrax font-semibold">$</span>DIGI
             </span>
           </h2>
           <p className="max-w-[358.5px] 2xl:max-w-[478px] font-vcr text-[15px] 2xl:text-[20px] leading-6">
@@ -91,7 +91,7 @@ export default function Refer2() {
               >
                 <img src="/button/share-light-white.png" className='group-hover:hidden absolute top-0 w-full h-full' alt="" />
                                 <img src="/button/share-white.png" className='hidden group-hover:block absolute top-0 w-full h-full' alt="" />
-                                <p className=" py-4 px-8  group-hover:text-black relative z-10 text-sm">
+                                <p className=" py-4 px-10  group-hover:text-black relative z-10 text-sm">
 
                 SHARE
                                 </p>
