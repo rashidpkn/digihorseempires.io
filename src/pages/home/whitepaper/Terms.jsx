@@ -23,7 +23,7 @@ export default function Terms() {
     
       <div className="space-y-10 p-5 bg-black/85 rounded-md " >
         
-        <div className="">
+        <div className="" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="300">
           <div className="flex gap-20 items-center flex-col lg:flex-row">
             <div className="space-y-5">
               <h3 className="text-[1.5em] font-slant ">The <span className='text-[#18ff04]'>Stablemaster </span></h3>
@@ -41,7 +41,7 @@ export default function Terms() {
           </div>
         </div>
 
-        <div className="">
+         <div className="" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="300">
           <div className="flex gap-20 items-center flex-col lg:flex-row">
             <img src="/images/deHorse/22.jpg" className="w-48 h-48 shrink-0" alt="" />
             <div className="space-y-5">
@@ -60,7 +60,7 @@ export default function Terms() {
         </div>
 
 
-        <div className="">
+         <div className="" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="300">
           <div className="flex gap-20 items-center flex-col lg:flex-row">
             <div className="space-y-5">
               <h3 className="text-[1.5em] font-slant ">The Community <span className='text-[#18ff04]'>Wrangler </span></h3>
@@ -79,7 +79,7 @@ adoption.
           </div>
         </div>
 
-        <div className="">
+         <div className="" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="300">
           <div className="flex gap-20 items-center flex-col lg:flex-row">
             <img src="/images/deHorse/11.jpg" className="w-48 h-48 shrink-0" alt="" />
             <div className="space-y-5">
@@ -99,7 +99,7 @@ against evolving threats.
         </div>
 
 
-        <div className="">
+         <div className="" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="300">
           <div className="flex gap-20 items-center flex-col lg:flex-row">
             <div className="space-y-5">
               <h3 className="text-[1.5em] font-slant ">The Mane <span className='text-[#18ff04]'>Marketer </span></h3>

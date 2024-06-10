@@ -7,7 +7,7 @@ export default function Vision() {
     style={{ backgroundImage: "url(/images/home/whitepaper/bg1.png)" }}
   >
     <section className="w-[90%] lg:w-[80%] mx-auto py-8 space-y-5 lg:text-center  flex flex-col justify-center items-center ">
-      <div className="space-y-3">
+      <div className="space-y-3" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="300">
         <h3 className="text-[42px] 2xl:text-[56px] font-slant text-center">Our  <span className='text-[#18ff04]'> Vision </span></h3>
         <p className="font-vcr  max-w-3xl bg-[#53cc5e10] p-3 rounded-xl relative">
         <div className="absolute inset-0 m-auto h-[75%] w-[75%]  blur-3xl glow-build   bg-[#53cc5e44]" />
@@ -20,7 +20,7 @@ export default function Vision() {
         </p>
       </div>
 
-      <div className="space-y-3">
+      <div className="space-y-3" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="300">
         <h3 className="text-[42px] 2xl:text-[56px] font-slant text-center">Our <span className='text-[#18ff04]'>Mission </span></h3>
         <p className="font-vcr  max-w-3xl bg-[#53cc5e10] p-3 rounded-xl relative">
         <div className="absolute inset-0 m-auto h-[75%] w-[75%]  blur-3xl glow-build   bg-[#53cc5e44]" />

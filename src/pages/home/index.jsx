@@ -127,12 +127,18 @@ export default function HomePage() {
 
 
               <div className='flex flex-col lg:flex-row justify-center md:justify-end  gap-4 flex-1'>
-                <Button
+                <button className="relative flex justify-center items-center group">
+                <img src="/button/light-green-connect.png" className='group-hover:hidden w-full h-full absolute object-cover' alt="" />
+                  
+                  <img src="/button/green-connect.png" height={36} width={100} className='hidden group-hover:block w-full h-full absolute object-cover' alt="" />
+                  <p className='py-3 px-10 relative z-10'>VIEW AUDIT</p>
+                </button>
+                {/* <Button
                   onClick={() => window.open('https://github.com/solidproof/projects/blob/main/2024/DigiHorse%20Empires/SmartContract_Audit_Solidproof_DigiHorseEmpires.pdf', '_blank')}
                   title="VIEW AUDIT"
                   className="md:px-1620 p-4 bg-gradient-to-r from-primary to-secondary text-textColor md:mt-0 mt-6 lg:px-16"
                   type="primary"
-                />
+                /> */}
               </div>
             </div>
           </div>
@@ -168,7 +174,7 @@ export default function HomePage() {
 Are you ready to ride the wave of the Web3 gaming revolution and unleash the full potential of your passion for horse racing? Join us at DigiHorse and become part of a global community of gamers, investors, and enthusiasts who are shaping the future of digital entertainment. Welcome to DigiHorse, where profit meets passion, and the possibilities are endless.
 </p>
 <div className='w-[116px] h-[116px] bg-[#9ae89dc7] blur-[100px]  absolute opacity-60 top-[30%] right-[40%] -z-10' />
-<a
+{/* <a
   href="#path_purchase">
   <Button
     // onClick={'open'}
@@ -176,7 +182,15 @@ Are you ready to ride the wave of the Web3 gaming revolution and unleash the ful
     className="p-4 bg-gradient-to-r from-primary to-secondary text-textColor w-44 m-auto hover:opacity-90 cursor-pointer"
     type="primary"
   />
-</a>
+</a> */}
+
+
+<button className="relative flex justify-center items-center group mx-auto">
+                <img src="/button/light-green-connect.png" className='group-hover:hidden w-full h-full absolute object-cover' alt="" />
+                  
+                  <img src="/button/green-connect.png" height={36} width={100} className='hidden group-hover:block w-full h-full absolute object-cover' alt="" />
+                  <p className='py-3 px-10 relative z-10'>JOIN NOW</p>
+                </button>
 
 <div className='absolute  w-full h-full top-0 left-0 -z-10'>
   {/* <FireRandomParticles sparks={15} /> */}

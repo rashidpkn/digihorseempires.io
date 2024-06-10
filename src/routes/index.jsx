@@ -1,9 +1,21 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import MainLayout from '../layout/main'
 import HomePage from '../pages/home'
 
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+
+
+
 export default function Router()  {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <BrowserRouter>
     <Routes>

@@ -101,7 +101,11 @@ function RoadMap() {
 
 
   return (
-    <div className='flex flex-col justify-center items-center relative mx-8 pt-32' id="path_roadmap" ref={container}>
+    <div style={{backgroundImage:'url(/images/home/whitepaper/bg6.png)'}} className='bg-no-repeat bg-right-top '>
+      <div className='bg-black/50'>
+
+    
+    <div className='flex flex-col justify-center items-center relative mx-8 pt-5' id="path_roadmap" ref={container}>
       <h3 className='text-center text-4xl md:text-[4em] mt-32 font-slant -translate-y-20 text-white'>Your Path to Profit</h3>
 
       {yourPath.map((card, key) => {
@@ -151,7 +155,7 @@ function RoadMap() {
             {/* for mobile only */}
             <img className={`md:hidden w-[40px]`} src="./images/landing/footPrint.png" />
             {/* title */}
-            <p className='text-[2em]  text-white my-4 leading-[1em] font-conthrax'>{card.title}</p>
+            <p className='text-[2em]  text-white my-4 leading-[1em] font-slant'>{card.title}</p>
             {/* contents */}
             {/* <p className='text-[#b8adc2] text-xl'>{card.content}</p> */}
             <ul className=''>
@@ -162,6 +166,8 @@ function RoadMap() {
           </div>
         </div>
       })}
+    </div>
+    </div>
     </div>
   )
 }
