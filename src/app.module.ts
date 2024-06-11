@@ -11,7 +11,8 @@ import { NowpaymentsModule } from './nowpayments/nowpayments.module';
   imports: [  ServeStaticModule.forRoot({
     rootPath: join(__dirname,'..', 'frontend' , 'dist'),
   }),
-  DatabaseModule,TransactionsModule, NowpaymentsModule],
+  // DatabaseModule,TransactionsModule,
+   NowpaymentsModule],
   controllers: [AppController],
   providers: [AppService],
 })
