@@ -27,7 +27,11 @@ export default function Leaderboard() {
                                     return(
                                         <tr key={e} className=' hover:bg-white/20 duration-200 cursor-pointer'>
                                     <td width={100} className='flex gap-5 items-center pl-3 h-14'>
-                                        <img src="/images/home/red-logo.webp"  width={40} alt="" />
+                                        {e===1 && <img src="/images/home/red-logo.webp"  width={40} alt="" />}
+                                        {e===2 && <img src="/images/home/blue-logo.webp"  width={40} alt="" />}
+                                        {e===3 && <img src="/images/home/yellow-logo.webp"  width={40} alt="" />}
+                                        {e >=4 && <img src="/images/home/logo.webp"  width={40} alt="" />}
+                                        
                                         <p className='text-sm'>{e}</p>
                                          
                                          </td>

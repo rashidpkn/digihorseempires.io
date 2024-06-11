@@ -80,7 +80,7 @@ export default function MeetTeamCard() {
                                 <i className='w-[90%] lg:w-[80%] h-20 bg-[#00000090] absolute -z-10 blur-xl group-hover:opacity-0 font-slant' />
                                 {team.name}
                             </p>
-                            <p className='h-0 group-hover:h-auto opacity-0 group-hover:opacity-100  text-white text-sm'>{team.description} </p>
+                            {/* <p className='h-0 group-hover:h-auto opacity-0 group-hover:opacity-100  text-white text-sm'>{team.description} </p> */}
                         </div>
                     </div>
                 })}

@@ -38,9 +38,10 @@ export default function HomePage() {
               monitoring
             </span>
             <div>
-              <p className='text-3xl font-vcr'>NFT Wearables Marketplace</p>
+              <p className='text-3xl font-vcr'>Ai Powered NFT Wearables</p>
               <p className='w-[90%] lg:w-[80%] mt-3 font-vcr'>
-                Dive into our vibrant marketplace and explore a wide range of NFT wearables to customize your horses and enhance their performance. From sleek saddles to stylish bridles, these digital accessories not only add flair to your horses but also serve as valuable assets that can be bought, sold, and traded for profit.
+              Dive into our vibrant marketplace and explore a wide range of AI-powered NFT wearables to customize your horses and enhance their performance. From sleek saddles to stylish bridles, these digital accessories not only add flair to your horses but also serve as valuable assets that can be bought, sold, and traded for profit. The AI integration ensures dynamic and intelligent design elements, making each wearable unique and enhancing your gaming experience.
+
               </p>
             </div>
           </div>
@@ -51,7 +52,7 @@ export default function HomePage() {
             </span>
             <div>
               <p className='text-3xl'>Renting Economy</p>
-              <p className='w-[90%] lg:w-[80%] mt-3 '>Unlock the potential of the sharing economy by renting horses from other players. Whether you're looking for a speedy racer or a sturdy workhorse, our platform facilitates seamless transactions between owners and renters, allowing you to maximize your earnings and expand your equine empire.</p>
+              <p className='w-[90%] lg:w-[80%] mt-3 '>Unlock the potential of the sharing economy by renting horses and hippodromes from other players. Whether you're looking for a speedy racer, a sturdy workhorse, or a lucrative rental venue, our platform facilitates seamless transactions between owners and renters. This allows you to maximize your earnings, receive advertising revenue, and expand your equine empire. Take advantage of our innovative marketplace to diversify your assets and increase your profits.</p>
             </div>
           </div>
 
@@ -99,13 +100,18 @@ export default function HomePage() {
               <div className='flex items-center'>
                 <img src="https://staging.digihorseempires.io/images/landing/footPrint.png" className='h-[60px] md:h-[100px] mr-4' />
                 <div>
-                <h3 className="text-[42px] 2xl:text-[56px] font-slant text-center">Unleashing <span className='text-[#18ff04]'>Profitability</span></h3>
+                <h3 className="text-[42px] 2xl:text-[56px] font-slant text-center">
+                Innovative <span className='text-[#18ff04]'>Play To Earn</span> Model
+                  </h3>
                   
                   <p className='text-[2em]'>in Digital Gaming</p>
                 </div>
               </div>
               <p className='text-[#d0e4c6] text-xl md:w-[90%] lg:w-[80%] my-8'>
-                Digital gaming has evolved into a multi-billion-dollar industry, with exponential growth projected in the coming years. At DigiHorse, we're harnessing this momentum to empower players to monetize their gaming experiences like never before. Our innovative horse racing game, powered by blockchain technology, offers unparalleled opportunities for players to earn real profits while indulging in their love for equestrian sports.</p>
+                Digihorse Empires is redefining the gaming landscape with its groundbreaking play-to-earn model. Imagine turning your passion for horse racing into a lucrative venture where every race, trade, and investment in NFT horses translates into real-world earnings. Our platform rewards your skills and strategic decisions, allowing you to generate significant income just by playing the game.
+                <br /> <br />
+                Whether you're racing your top-performing horse, trading rare NFTs, or renting out your hippodromes for advertising revenue, every action in Digihorse Empires has the potential to boost your earnings. The integration with the Base Blockchain ensures secure, fast, and transparent transactions, making it easier than ever to profit from your gaming activities.
+                </p>
             </div>
             <div className='w-full'>
               <img src="https://staging.digihorseempires.io/images/landing/tokonomics.webp" className='' />
@@ -113,6 +119,10 @@ export default function HomePage() {
             <div className='hidden md:block w-[216px] h-[216px] bg-[#9ae89d] blur-[127px]  absolute opacity-60 top-[30%] left-[20%] -z-10' />
           </div>
         </div>
+
+        {/* <p class="text-center w-[90%] lg:w-[80%] text-sm md:text-lg text-[#d0e4c6] md:px-[10%] m-auto mt-12 font-vcr">
+        Whether you're racing your top-performing horse, trading rare NFTs, or renting out your hippodromes for advertising revenue, every action in Digihorse Empires has the potential to boost your earnings. The integration with the Base Blockchain ensures secure, fast, and transparent transactions, making it easier than ever to profit from your gaming activities.
+        </p> */}
 
 
 

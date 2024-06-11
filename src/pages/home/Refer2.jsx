@@ -20,14 +20,7 @@ export default function Refer2() {
             </span>
           </h2>
           <p className="max-w-[358.5px] 2xl:max-w-[478px] font-vcr text-[15px] 2xl:text-[20px] leading-6">
-            Share your referral code with friends and family. When someone uses
-            your code,{" "}
-            <span className="text-[#00FF4E]">
-              {" "}
-              they get 10% extra $DIGI coins!{" "}
-            </span>{" "}
-            Plus, you enter our monthly leaderboard for a chance to win
-            fantastic prizes!
+          Share your referral code with friends, family, and the crypto community. When someone uses your code, <span className="text-[#00FF4E]">they get 10% extra $DIGI coins!</span> Plus, you enter our monthly leaderboard for a chance to win fantastic prizes! Spread the word and maximize your earnings together.
           </p>
         </div>
 
@@ -41,7 +34,7 @@ export default function Refer2() {
                 </p>
               </div>
               <p className="font-vcr text-[13px] 2xl:text-[18px] mt-3">
-                Securely connect your wallet.
+              Securely connect
               </p>
             </div>
 
@@ -78,7 +71,7 @@ export default function Refer2() {
                 </p>
               </div>
               <p className="font-vcr text-[13px] 2xl:text-[18px] mt-3">
-                Share code with friends and family.
+              Share your  unique referral code.
               </p>
             </div>
             <div className="mt-[30px] 2xlmt-[40px] relative w-full h-[50px] group">
