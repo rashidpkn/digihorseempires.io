@@ -8,7 +8,5 @@ async function bootstrap() {
   app.enableCors({origin:'*'});
   app.useGlobalPipes(new ValidationPipe());
   await app.listen(5000);
-
-  console.log(path.join(__dirname,'..', 'frontend' , 'dist'));
 }
 bootstrap();

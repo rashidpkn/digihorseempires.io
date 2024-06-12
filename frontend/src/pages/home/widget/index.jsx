@@ -45,23 +45,23 @@ setStep(1)
 
     const options = {
       partner_id: '01HZRWA7RFXR3S5NBDW7VT4DY0',
-      origin: "https://widget.wert.io",
-  address: "0x0E976df9bb3ac63F7802ca843C9d121aE2Ef22ee",
-  commodity: "ETH",
+      // origin: "https://widget.wert.io",
+  address: "0xEd932DD39e02442D230cea9E8F05f85F2f5233FF",
+  commodity: "USDT",
   network: "ethereum",
-  commodity_amount: 0.1,
-  sc_address: "0x6af35a72b2490a44c0e88ae635b9b38516544db1",
-  sc_input_data: "0x3c168eab0000000000000000000000000e976df9bb3ac63f7802ca843c9d121ae2ef22ee0000000000000000000000000000000000000000000000000000000000000001",
+  commodity_amount: 1,
+  // sc_address: "0x6af35a72b2490a44c0e88ae635b9b38516544db1",
+  // sc_input_data: "0x3c168eab0000000000000000000000000e976df9bb3ac63f7802ca843c9d121ae2ef22ee0000000000000000000000000000000000000000000000000000000000000001",
   };
   
   const smartContractOptions= {
-      address: '0x0E976df9bb3ac63F7802ca843C9d121aE2Ef22ee',
-      commodity: 'ETH',
+      address: '0xEd932DD39e02442D230cea9E8F05f85F2f5233FF',
+      commodity: 'USDT',
       network: 'ethereum',
-      commodity_amount: 0.1,
-      sc_address: '0x6af35a72b2490a44c0e88ae635b9b38516544db1',
+      commodity_amount: 1,
+      sc_address: '0xEd932DD39e02442D230cea9E8F05f85F2f5233FF',
       sc_input_data: '0x3c168eab0000000000000000000000000e976df9bb3ac63f7802ca843c9d121ae2ef22ee0000000000000000000000000000000000000000000000000000000000000001',
-      private_key: '0x57466afb5491ee372b3b30d82ef7e7a0583c9e36aef0f02435bd164fe172b1d3',
+      private_key: '0x27d8e6fb883920863b2a036eef858fcfa92eb73777fca013943317ab6bf0a44b',
   }
 
   const { open:openWertWidget,isWidgetOpen } = useWertWidget();

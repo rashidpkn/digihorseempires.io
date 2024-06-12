@@ -22,33 +22,40 @@ export default function Header()  {
                    <div className="w-2 h-[1px] block group-hover:hidden"></div>
                   </div>
                 <div className="hidden lg:flex gap-1 flex-col items-center group">
-                   <NavLink to={'/'} className={'group-hover:text-white text-white/70'}>TEAM</NavLink>
+                   <a href='/#path_team' className={'group-hover:text-white text-white/70'}>TEAM</a>
                    <div className="w-2 h-[1px] bg-[#00FF4E] nav-link rounded-full hidden group-hover:block"></div>
                    <div className="w-2 h-[1px] block group-hover:hidden"></div>
                   </div>
                 
                 <div className="hidden lg:flex gap-1 flex-col items-center group">
-                   <NavLink to={'/'} className={'group-hover:text-white text-white/70'}>ROADMAP</NavLink>
+                   <a href={'/#path_roadmap'} className={'group-hover:text-white text-white/70'}>ROADMAP</a>
                    <div className="w-2 h-[1px] bg-[#00FF4E] nav-link rounded-full hidden group-hover:block"></div>
                    <div className="w-2 h-[1px] block group-hover:hidden"></div>
                   </div>
                 <div className="hidden lg:flex gap-1 flex-col items-center group">
-                   <NavLink to={'/'} className={'group-hover:text-white text-white/70'}>WHITEPAPER</NavLink>
+                   <a href='https://whitepaper.digihorseempires.io' className={'group-hover:text-white text-white/70'}>WHITEPAPER</a>
+                   <div className="w-2 h-[1px] bg-[#00FF4E] nav-link rounded-full hidden group-hover:block"></div>
+                   <div className="w-2 h-[1px] block group-hover:hidden"></div>
+                  </div>
+                
+                <div className="hidden lg:flex gap-1 flex-col items-center group">
+                   <NavLink to={'/how-to-buy'} className={'group-hover:text-white text-white/70'}>HOW TO BUY</NavLink>
+                   <div className="w-2 h-[1px] bg-[#00FF4E] nav-link rounded-full hidden group-hover:block"></div>
+                   <div className="w-2 h-[1px] block group-hover:hidden"></div>
+                  </div>
+                  <div className="hidden lg:flex gap-1 flex-col items-center group">
+                   <NavLink to={'/how-to-claim'} className={'group-hover:text-white text-white/70'}>HOW TO Claim</NavLink>
+                   <div className="w-2 h-[1px] bg-[#00FF4E] nav-link rounded-full hidden group-hover:block"></div>
+                   <div className="w-2 h-[1px] block group-hover:hidden"></div>
+                  </div>
+
+                <div className="hidden lg:flex gap-1 flex-col items-center group">
+                   <a href='https://github.com/solidproof/projects/blob/main/2024/DigiHorse%20Empires/SmartContract_Audit_Solidproof_DigiHorseEmpires.pdf' className={'group-hover:text-white text-white/70'}>AUDIT</a>
                    <div className="w-2 h-[1px] bg-[#00FF4E] nav-link rounded-full hidden group-hover:block"></div>
                    <div className="w-2 h-[1px] block group-hover:hidden"></div>
                   </div>
                 <div className="hidden lg:flex gap-1 flex-col items-center group">
-                   <NavLink to={'/'} className={'group-hover:text-white text-white/70'}>HOW TO BUY</NavLink>
-                   <div className="w-2 h-[1px] bg-[#00FF4E] nav-link rounded-full hidden group-hover:block"></div>
-                   <div className="w-2 h-[1px] block group-hover:hidden"></div>
-                  </div>
-                <div className="hidden lg:flex gap-1 flex-col items-center group">
-                   <NavLink to={'/'} className={'group-hover:text-white text-white/70'}>AUDIT</NavLink>
-                   <div className="w-2 h-[1px] bg-[#00FF4E] nav-link rounded-full hidden group-hover:block"></div>
-                   <div className="w-2 h-[1px] block group-hover:hidden"></div>
-                  </div>
-                <div className="hidden lg:flex gap-1 flex-col items-center group">
-                   <NavLink to={'/'} className={'group-hover:text-white text-white/70'}>FAQ</NavLink>
+                   <a href='/#path_faq' className={'group-hover:text-white text-white/70'}>FAQ</a>
                    <div className="w-2 h-[1px] bg-[#00FF4E] nav-link rounded-full hidden group-hover:block"></div>
                    <div className="w-2 h-[1px] block group-hover:hidden"></div>
                   </div>

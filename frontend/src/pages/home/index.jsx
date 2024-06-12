@@ -13,6 +13,7 @@ import Faq from "./Faq";
 import Button from "../../components/Button";
 import Refer2 from "./Refer2";
 import WhitePaper from "./whitepaper";
+import Partners1 from "./Partners1";
 
 export default function HomePage() {
   return (
@@ -176,11 +177,15 @@ export default function HomePage() {
           <Partners />
         </section>
 
-        <section className='' id="path_media">
-          <Media />
+        <section className='md:mt-60' id="path_partners">
+          <Partners1 />
         </section>
 
-        <div className='block font-vcr'>
+        {/* <section className='' id="path_media">
+          <Media />
+        </section> */}
+
+        <div className='block font-vcr' id="path_faq">
           <h3 className='text-center text-[4em] font-slant text-white mt-16'>FAQS</h3>
           <h3 className='text-center text-4xl mb-12 font-slant'>Answers to Your Most Common Questions</h3>
           <Faq />

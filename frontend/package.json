@@ -23,7 +23,8 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.1",
     "viem": "^2.13.6",
-    "wagmi": "^2.9.9"
+    "wagmi": "^2.9.9",
+    "web3": "^4.9.0"
   },
   "devDependencies": {
     "@iconify/react": "^5.0.1",

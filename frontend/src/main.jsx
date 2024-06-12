@@ -7,13 +7,16 @@ import { useGSAP } from '@gsap/react'
 
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import gsap from 'gsap'
+import { BrowserRouter } from 'react-router-dom'
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Web3ModalProvider>
+    <BrowserRouter>
       <Router/>
+      </BrowserRouter>
     </Web3ModalProvider>
   </React.StrictMode>,
 )

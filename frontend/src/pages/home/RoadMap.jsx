@@ -101,11 +101,11 @@ function RoadMap() {
 
 
   return (
-    <div style={{backgroundImage:'url(/images/home/whitepaper/bg6.png)'}} className='bg-no-repeat bg-right-top '>
+    <div id="path_roadmap"  style={{backgroundImage:'url(/images/home/whitepaper/bg6.png)'}} className='bg-no-repeat bg-right-top '>
       <div className='bg-black/50'>
 
     
-    <div className='flex flex-col justify-center items-center relative mx-8 pt-5' id="path_roadmap" ref={container}>
+    <div className='flex flex-col justify-center items-center relative mx-8 pt-5'  ref={container}>
       <h3 className='text-center text-4xl md:text-[4em] mt-32 font-slant -translate-y-20 text-white'>Your Path to Profit</h3>
 
       {yourPath.map((card, key) => {

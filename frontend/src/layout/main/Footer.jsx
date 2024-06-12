@@ -73,7 +73,11 @@ export default function Footer()  {
 
             <div className='md:flex justify-between md:mx-32 p-8 border-t border-[#ffffff40] mt-16 text-[#C2C4C5]'>
                 <p>© 2024. All rights reserved</p>
-                <p><Link to={'/terms'} className='mr-2'>Terms & Conditions</Link> <Link to={'/privacy'} className='mr-2'>Privacy Policy</Link>   <Link to={'/disclaimer'} className='mr-2'>Disclaimer</Link></p>
+                <p className='space-x-2'>
+                    <Link to={'/privacy-policy'} className='mr-2'>Terms & Conditions</Link> 
+                    <Link to={'/privacy-policy'} className='mr-2'>Privacy Policy</Link>
+                    <Link to={'/privacy-policy'} className='mr-2'>Disclaimer</Link>
+                       </p>
             </div>
         </div>
     </footer>
