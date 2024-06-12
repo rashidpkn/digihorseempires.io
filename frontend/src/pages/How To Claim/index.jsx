@@ -24,8 +24,11 @@ export default function HowToClaim() {
           <div className="mx-auto grid w-full lg:w-[60%] gap-5">
 
 
-            <div className="container_ecosystem container_ecosystem0 delay-anim relative mt-16 flex w-full justify-center rounded-2xl bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] text-center" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="300">
-
+            <div className="container_ecosystem container_ecosystem0 delay-anim relative mt-16 flex w-full justify-center rounded-2xl bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] text-center" 
+            // data-aos="fade-right" data-aos-duration="1500" data-aos-delay="300"
+            >
+                <img src="/images/how-to-claim/MetaMask.png" className='w-20 h-20 absolute -top-10 inset-x-0 mx-auto' alt="" />
+                
               <div className="ecoGlare ecoGlare0 absolute hidden h-[100px] w-[100px] -translate-x-16 translate-y-8 animate-pulse bg-[#9ae89d] opacity-40 blur-[50px] md:block"></div>
               <div className="mx-8 my-16">
                 <p className="text-gold font-slant mb-8 text-3xl text-white">
@@ -40,7 +43,10 @@ export default function HowToClaim() {
               </div>
             </div>
 
-            <div className="container_ecosystem container_ecosystem0 delay-anim relative mt-16 flex w-full justify-center rounded-2xl bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] text-center" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="300">
+            <div className="container_ecosystem container_ecosystem0 delay-anim relative mt-16 flex w-full justify-center rounded-2xl bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] text-center" 
+            // data-aos="fade-left" data-aos-duration="1500" data-aos-delay="300"
+            >
+              <img src="/images/how-to-claim/ethereum.png" className='w-20 h-20 absolute -top-10 inset-x-0 mx-auto' alt="" />
 
 <div className="ecoGlare ecoGlare0 absolute hidden h-[100px] w-[100px] -translate-x-16 translate-y-8 animate-pulse bg-[#9ae89d] opacity-40 blur-[50px] md:block"></div>
 <div className="mx-8 my-16">
@@ -56,7 +62,10 @@ export default function HowToClaim() {
 </div>
 </div>
 
-<div className="container_ecosystem container_ecosystem0 delay-anim relative mt-16 flex w-full justify-center rounded-2xl bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] text-center" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="300">
+<div className="container_ecosystem container_ecosystem0 delay-anim relative mt-16 flex w-full justify-center rounded-2xl bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] text-center" 
+// data-aos="fade-right" data-aos-duration="1500" data-aos-delay="300"
+>
+<img src="/images/how-to-claim/poligon.webp" className='w-20 h-20 absolute -top-10 inset-x-0 mx-auto' alt="" />
 
 <div className="ecoGlare ecoGlare0 absolute hidden h-[100px] w-[100px] -translate-x-16 translate-y-8 animate-pulse bg-[#9ae89d] opacity-40 blur-[50px] md:block"></div>
 <div className="mx-8 my-16">
@@ -72,7 +81,10 @@ export default function HowToClaim() {
 </div>
 </div>
 
-<div className="container_ecosystem container_ecosystem0 delay-anim relative mt-16 flex w-full justify-center rounded-2xl bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] text-center" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="300">
+<div className="container_ecosystem container_ecosystem0 delay-anim relative mt-16 flex w-full justify-center rounded-2xl bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] text-center" 
+// data-aos="fade-left" data-aos-duration="1500" data-aos-delay="300"
+>
+<img src="/images/how-to-claim/base-network.png" className='w-20 h-20 absolute -top-10 inset-x-0 mx-auto' alt="" />
 
 <div className="ecoGlare ecoGlare0 absolute hidden h-[100px] w-[100px] -translate-x-16 translate-y-8 animate-pulse bg-[#9ae89d] opacity-40 blur-[50px] md:block"></div>
 <div className="mx-8 my-16">
@@ -93,8 +105,10 @@ export default function HowToClaim() {
 </div>
 </div>
 
-<div className="container_ecosystem container_ecosystem0 delay-anim relative mt-16 flex w-full justify-center rounded-2xl bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] text-center" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="300">
-
+<div className="container_ecosystem container_ecosystem0 delay-anim relative mt-16 flex w-full justify-center rounded-2xl bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] text-center" 
+// data-aos="fade-right" data-aos-duration="1500" data-aos-delay="300"
+>
+<img src="/images/how-to-claim/save.png" className='w-20 h-20 absolute -top-10 inset-x-0 mx-auto' alt="" />
 <div className="ecoGlare ecoGlare0 absolute hidden h-[100px] w-[100px] -translate-x-16 translate-y-8 animate-pulse bg-[#9ae89d] opacity-40 blur-[50px] md:block"></div>
 <div className="mx-8 my-16">
   <p className="text-gold font-slant mb-8 text-3xl text-white">
@@ -126,7 +140,9 @@ Claim Your $DIGI Tokens
   <div className="mx-auto grid w-full lg:w-[60%] gap-5">
 
 
-    <div className="container_ecosystem container_ecosystem0 delay-anim relative mt-16 flex w-full justify-center rounded-2xl bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] text-center" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="300">
+    <div className="container_ecosystem container_ecosystem0 delay-anim relative mt-16 flex w-full justify-center rounded-2xl bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] text-center" 
+    // data-aos="fade-left" data-aos-duration="1500" data-aos-delay="300"
+    >
 
       <div className="ecoGlare ecoGlare0 absolute hidden h-[100px] w-[100px] -translate-x-16 translate-y-8 animate-pulse bg-[#9ae89d] opacity-40 blur-[50px] md:block"></div>
       <div className="mx-8 my-16">
@@ -142,7 +158,11 @@ Claim Your $DIGI Tokens
       </div>
     </div>
 
-    <div className="container_ecosystem container_ecosystem0 delay-anim relative mt-16 flex w-full justify-center rounded-2xl bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] text-center" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="300">
+    <div className="container_ecosystem container_ecosystem0 delay-anim relative mt-16 flex w-full justify-center rounded-2xl bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] text-center" 
+    // data-aos="fade-right" data-aos-duration="1500" data-aos-delay="300"
+    >
+
+<img src="/images/how-to-claim/connect-wallet.png" className='w-20 h-20 absolute -top-10 inset-x-0 mx-auto' alt="" />
 
 <div className="ecoGlare ecoGlare0 absolute hidden h-[100px] w-[100px] -translate-x-16 translate-y-8 animate-pulse bg-[#9ae89d] opacity-40 blur-[50px] md:block"></div>
 <div className="mx-8 my-16">
@@ -159,7 +179,10 @@ Claim Your $DIGI Tokens
 </div>
 
 
-<div className="container_ecosystem container_ecosystem0 delay-anim relative mt-16 flex w-full justify-center rounded-2xl bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] text-center" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="300">
+<div className="container_ecosystem container_ecosystem0 delay-anim relative mt-16 flex w-full justify-center rounded-2xl bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] text-center" 
+// data-aos="fade-left" data-aos-duration="1500" data-aos-delay="300"
+>
+<img src="/images/how-to-claim/token.webp" className='w-20 h-20 absolute -top-10 inset-x-0 mx-auto' alt="" />
 
 <div className="ecoGlare ecoGlare0 absolute hidden h-[100px] w-[100px] -translate-x-16 translate-y-8 animate-pulse bg-[#9ae89d] opacity-40 blur-[50px] md:block"></div>
 <div className="mx-8 my-16">
@@ -176,7 +199,9 @@ Claim Your $DIGI Tokens
 </div>
 
 
-<div className="container_ecosystem container_ecosystem0 delay-anim relative mt-16 flex w-full justify-center rounded-2xl bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] text-center" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="300">
+<div className="container_ecosystem container_ecosystem0 delay-anim relative mt-16 flex w-full justify-center rounded-2xl bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] text-center" 
+// data-aos="fade-right" data-aos-duration="1500" data-aos-delay="300"
+>
 
 <div className="ecoGlare ecoGlare0 absolute hidden h-[100px] w-[100px] -translate-x-16 translate-y-8 animate-pulse bg-[#9ae89d] opacity-40 blur-[50px] md:block"></div>
 <div className="mx-8 my-16">

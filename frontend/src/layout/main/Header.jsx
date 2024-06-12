@@ -17,7 +17,7 @@ export default function Header()  {
         <div className="w-[90%] lg:w-[80%] mx-auto  py-4 flex  justify-between items-center text-white font-conthrax text-[8px] font-semibold ">
                 <img src="/images/logo/logo.webp" width={150} height={39.59} alt="" />
                 <div className="hidden lg:flex gap-1 flex-col items-center group">
-                   <NavLink to={'/'} className={'group-hover:text-white text-white/70' }>ABOUT</NavLink>
+                   <NavLink to={'/'} className={'group-hover:text-white text-white/70' }>HOME</NavLink>
                    <div className="w-2 h-[1px] bg-[#00FF4E] nav-link rounded-full hidden group-hover:block"></div>
                    <div className="w-2 h-[1px] block group-hover:hidden"></div>
                   </div>

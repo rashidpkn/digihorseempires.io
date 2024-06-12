@@ -21,6 +21,19 @@ export class NowpaymentsController {
     }
   }
 
+  @Post()
+    async createInvoice(@Body() createInvoiceDto: CreateInvoiceDto){
+      try {
+      console.log(createInvoiceDto);
+        const {data} = await nowPaymentApi.post('/payment',createInvoiceDto)
+
+        return data
+      } catch (error) {
+        throw error
+      }
+    }
+
+
   @Post('auth')
   async Auth(@Body()  body:{}){
     try {
@@ -45,21 +58,9 @@ export class NowpaymentsController {
       }
     }
 
-    @Post('invoice')
-    async createInvoice(@Body() createInvoiceDto: CreateInvoiceDto){
-      try {
-      
-        const {data} = await nowPaymentApi.post('/invoice',createInvoiceDto)
-        return data.invoice_url
-      } catch (error) {
-        throw error
-      }
-    }
+    
 
-  @Post()
-  create(@Body() createNowpaymentDto: CreateNowpaymentDto) {
-    return this.nowpaymentsService.create(createNowpaymentDto);
-  }
+
 
   
 }

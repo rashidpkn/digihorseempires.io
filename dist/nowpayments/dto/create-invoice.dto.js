@@ -12,9 +12,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.CreateInvoiceDto = void 0;
 const class_validator_1 = require("class-validator");
 class CreateInvoiceDto {
-    constructor() {
-        this.price_currency = 'usd';
-    }
 }
 exports.CreateInvoiceDto = CreateInvoiceDto;
 __decorate([
@@ -28,17 +25,17 @@ __decorate([
 __decorate([
     (0, class_validator_1.IsString)(),
     __metadata("design:type", String)
+], CreateInvoiceDto.prototype, "pay_currency", void 0);
+__decorate([
+    (0, class_validator_1.IsString)(),
+    __metadata("design:type", String)
+], CreateInvoiceDto.prototype, "ipn_callback_url", void 0);
+__decorate([
+    (0, class_validator_1.IsString)(),
+    __metadata("design:type", String)
 ], CreateInvoiceDto.prototype, "order_id", void 0);
 __decorate([
     (0, class_validator_1.IsString)(),
     __metadata("design:type", String)
 ], CreateInvoiceDto.prototype, "order_description", void 0);
-__decorate([
-    (0, class_validator_1.IsUrl)(),
-    __metadata("design:type", String)
-], CreateInvoiceDto.prototype, "success_url", void 0);
-__decorate([
-    (0, class_validator_1.IsUrl)(),
-    __metadata("design:type", String)
-], CreateInvoiceDto.prototype, "cancel_url", void 0);
 //# sourceMappingURL=create-invoice.dto.js.map

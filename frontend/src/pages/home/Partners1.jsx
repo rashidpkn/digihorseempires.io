@@ -8,43 +8,43 @@ const Partners1 = () => {
     const partners = [
         {
             logo: '1',
-            website: 'https://metamask.io',
+            website: 'https://newsbtc.com/',
         },
         {
             logo: '2',
-            website: 'https://metamask.io',
+            website: 'https://binance.com/',
         },
         {
             logo: '3',
-            website: 'https://metamask.io',
+            website: 'https://coingape.com',
         },
         {
             logo: '4',
-            website: 'https://metamask.io',
+            website: 'https://www.analyticsinsight.net',
         },
         {
             logo: '5',
-            website: 'https://metamask.io',
+            website: 'https://36crypto.com/',
         },
         {
             logo: '6',
-            website: 'https://metamask.io',
+            website: 'https://blockman.pro/',
         },
         {
             logo: '7',
-            website: 'https://metamask.io',
+            website: 'https://www.benzinga.com/',
         },
         {
             logo: '8',
-            website: 'https://metamask.io',
+            website: 'https://dailycoin.com/',
         },
         {
             logo: '9',
-            website: 'https://metamask.io',
+            website: 'https://cryptonews.com',
         },
         {
             logo: '10',
-            website: 'https://metamask.io',
+            website: 'https://thenewscrypto.com/',
         },
         
         

@@ -6,18 +6,18 @@ export class CreateInvoiceDto {
     price_amount:number
 
     @IsString()
-    price_currency:string = 'usd'
+    price_currency:string
+
+    @IsString()
+    pay_currency:string
+
+    @IsString()
+    ipn_callback_url:string
 
     @IsString()
     order_id:string
 
     @IsString()
     order_description:string
-
-    @IsUrl()
-    success_url:string
-
-    @IsUrl()
-    cancel_url:string
 
 }
