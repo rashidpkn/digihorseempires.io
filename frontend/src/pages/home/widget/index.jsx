@@ -87,7 +87,7 @@ const changeAmount = (e) => {
     
   return (
     <>
-    <div className="max-w-[400px]  w-full relative p-5 bg-no-repeat bg-cover -top-24" style={{backgroundImage:'url(/images/home/widget/layer.png)'}}>
+    <div className="max-w-[400px]  w-full relative p-5 bg-no-repeat bg-cover lg:-top-24 2xl:top-0" style={{backgroundImage:'url(/images/home/widget/layer.png)'}}>
                         
                          <div className="w-full text-center">
                         <p className='font-conthrax text-[#00FF4E] '  style={{textShadow:'0px 0px 30px 0px #00000033'}}>PRE-SALE LIVE</p>

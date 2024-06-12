@@ -44,7 +44,7 @@ export default function Header()  {
                    <div className="w-2 h-[1px] block group-hover:hidden"></div>
                   </div>
                   <div className="hidden lg:flex gap-1 flex-col items-center group">
-                   <NavLink to={'/how-to-claim'} className={'group-hover:text-white text-white/70'}>HOW TO Claim</NavLink>
+                   <NavLink to={'/how-to-claim'} className={'group-hover:text-white text-white/70'}>HOW TO CLAIM</NavLink>
                    <div className="w-2 h-[1px] bg-[#00FF4E] nav-link rounded-full hidden group-hover:block"></div>
                    <div className="w-2 h-[1px] block group-hover:hidden"></div>
                   </div>
