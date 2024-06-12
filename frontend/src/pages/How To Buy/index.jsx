@@ -20,7 +20,7 @@ export default function HowToBuy() {
 
           <div className="mx-auto grid w-full lg:w-[60%] gap-5">
             
-            <div className="container_ecosystem container_ecosystem0 delay-anim relative mt-16 flex w-full justify-center rounded-2xl bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] text-center">
+            <div className="container_ecosystem container_ecosystem0 delay-anim relative mt-16 flex w-full justify-center rounded-2xl bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] text-center" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="300">
 
             <img src="https://moonbag.org/img/wallet.png" className='w-20 h-20 absolute -top-10 inset-x-0 mx-auto' alt="" />
 
@@ -43,7 +43,7 @@ export default function HowToBuy() {
               </div>
             </div>
             
-            <div className="container_ecosystem container_ecosystem1 relative mt-16 flex w-full justify-center rounded-2xl bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] text-center">
+            <div className="container_ecosystem container_ecosystem1 relative mt-16 flex w-full justify-center rounded-2xl bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] text-center" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="300">
 
             <img src="https://moonbag.org/img/eth-coin.png" className='w-20 h-20 absolute -top-10 inset-x-0 mx-auto' alt="" />
 
@@ -68,7 +68,7 @@ export default function HowToBuy() {
               </div>
             </div>
 
-            <div className="container_ecosystem container_ecosystem2 delay-anim relative mt-16 flex w-full justify-center rounded-2xl bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] text-center">
+            <div className="container_ecosystem container_ecosystem2 delay-anim relative mt-16 flex w-full justify-center rounded-2xl bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] text-center" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="300">
 
             <img src="/images/home/logo.webp" className='w-20 h-20  absolute -top-10 inset-x-0 mx-auto' alt="" />
 
@@ -92,7 +92,7 @@ export default function HowToBuy() {
               </div>
             </div>
 
-            <div className="container_ecosystem container_ecosystem3 relative mt-16 flex w-full justify-center rounded-2xl bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] text-center">
+            <div className="container_ecosystem container_ecosystem3 relative mt-16 flex w-full justify-center rounded-2xl bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] text-center" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="300">
 
             {/* <img src="" className='w-20 h-20 border border-white absolute -top-10 inset-x-0 mx-auto' alt="" /> */}
 
@@ -132,7 +132,7 @@ export default function HowToBuy() {
           <div className="mx-auto grid w-full lg:w-[60%] gap-5">
 
 
-            <div className="container_ecosystem container_ecosystem0 delay-anim relative mt-16 flex w-full justify-center rounded-2xl bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] text-center">
+            <div className="container_ecosystem container_ecosystem0 delay-anim relative mt-16 flex w-full justify-center rounded-2xl bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] text-center" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="300">
 
             {/* <img src="" className='w-20 h-20 border border-white absolute -top-10 inset-x-0 mx-auto' alt="" /> */}
 
@@ -151,7 +151,7 @@ export default function HowToBuy() {
               </div>
             </div>
 
-            <div className="container_ecosystem container_ecosystem1 relative mt-16 flex w-full justify-center rounded-2xl bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] text-center">
+            <div className="container_ecosystem container_ecosystem1 relative mt-16 flex w-full justify-center rounded-2xl bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] text-center" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="300">
             
             {/* <img src="" className='w-20 h-20 border border-white absolute -top-10 inset-x-0 mx-auto' alt="" /> */}
 
@@ -171,7 +171,7 @@ export default function HowToBuy() {
               </div>
             </div>
 
-            <div className="container_ecosystem container_ecosystem2 delay-anim relative mt-16 flex w-full justify-center rounded-2xl bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] text-center">
+            <div className="container_ecosystem container_ecosystem2 delay-anim relative mt-16 flex w-full justify-center rounded-2xl bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] text-center" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="300">
 
             {/* <img src="" className='w-20 h-20 border border-white absolute -top-10 inset-x-0 mx-auto' alt="" /> */}
 
@@ -196,7 +196,7 @@ export default function HowToBuy() {
               </div>
             </div>
 
-            <div className="container_ecosystem container_ecosystem3 relative mt-16 flex w-full justify-center rounded-2xl bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] text-center">
+            <div className="container_ecosystem container_ecosystem3 relative mt-16 flex w-full justify-center rounded-2xl bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] text-center" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="300">
             
             
             {/* <img src="" className='w-20 h-20 border border-white absolute -top-10 inset-x-0 mx-auto' alt="" /> */}
@@ -221,7 +221,7 @@ export default function HowToBuy() {
               </div>
             </div>
 
-            <div className="container_ecosystem container_ecosystem4 delay-anim relative mt-16 flex w-full justify-center rounded-2xl bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] text-center">
+            <div className="container_ecosystem container_ecosystem4 delay-anim relative mt-16 flex w-full justify-center rounded-2xl bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] text-center" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="300">
 
             {/* <img src="" className='w-20 h-20 border border-white absolute -top-10 inset-x-0 mx-auto' alt="" /> */}
 
@@ -243,7 +243,7 @@ export default function HowToBuy() {
               </div>
             </div>
 
-            <div className="container_ecosystem container_ecosystem5 relative mt-16 flex w-full justify-center rounded-2xl bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] text-center">
+            <div className="container_ecosystem container_ecosystem5 relative mt-16 flex w-full justify-center rounded-2xl bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] text-center" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="300">
 
 
             {/* <img src="" className='w-20 h-20 border border-white absolute -top-10 inset-x-0 mx-auto' alt="" /> */}
@@ -265,7 +265,7 @@ export default function HowToBuy() {
               </div>
             </div>
 
-            <div className="container_ecosystem container_ecosystem6 delay-anim relative mt-16 flex w-full justify-center rounded-2xl bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] text-center">
+            <div className="container_ecosystem container_ecosystem6 delay-anim relative mt-16 flex w-full justify-center rounded-2xl bg-gradient-to-b from-[#4b5c5230] to-[#4b5c5200] text-center" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="300">
 
             {/* <img src="" className='w-20 h-20 border border-white absolute -top-10 inset-x-0 mx-auto' alt="" /> */}
 
