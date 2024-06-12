@@ -46,26 +46,27 @@ const Tokenomics = () => {
                 category: "Presale",
                 token: (tokenSupply * 40) / 100
             },
+         
+            {
+                category: "Treasury",
+                token: (tokenSupply * 10) / 100
+            },
             {
                 category: "Team",
-                token: (tokenSupply * 10) / 100
+                token: (tokenSupply * 15) / 100
             },
             {
                 category: "Marketing",
-                token: (tokenSupply * 18) / 100
+                token: (tokenSupply * 10) / 100
             },
             {
                 category: "Liquidity",
-                token: (tokenSupply * 10) / 100
+                token: (tokenSupply * 15) / 100
             },
             {
                 category: "Rewards",
                 token: (tokenSupply * 10) / 100
             },
-            {
-                category: "Development",
-                token: (tokenSupply * 12) / 100
-            }
         ];
         chart.innerRadius = isMobile ? 50 : 100;
         chart.depth = isMobile ? 50 : 100;

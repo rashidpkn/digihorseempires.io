@@ -94,12 +94,13 @@ export default function HomePage() {
 
 {/* About us */}
 <div className="font-vcr">
-          <div className='fadeup rounded-3xl md:rounded-[100px] bg-[#1a2b2499] mx-8 my-2 md:mx-24 md:mt-24 p-8  md:flex justify-between relative'>
+          <div className='fadeup rounded-3xl md:rounded-[100px] bg-[#1a2b2499] mx-8 my-2 md:mx-24 md:mt-24 p-8  md:flex justify-between items-center relative'>
             <div className="absolute inset-0 m-auto h-[75%] w-[75%]  blur-3xl glow-build   bg-[#53cc5e22]" />
-            <div className="relative">
+          
+            <div className="relative w-[70%]">
               <div className='flex items-center'>
                 <img src="https://staging.digihorseempires.io/images/landing/footPrint.png" className='h-[60px] md:h-[100px] mr-4' />
-                <div>
+                <div className="">
                 <h3 className="text-[42px] 2xl:text-[56px] font-slant text-center">
                 Innovative <span className='text-[#18ff04]'>Play To Earn</span> Model
                   </h3>
@@ -107,14 +108,15 @@ export default function HomePage() {
                   <p className='text-[2em]'>in Digital Gaming</p>
                 </div>
               </div>
-              <p className='text-[#d0e4c6] text-xl md:w-[90%] lg:w-[80%] my-8'>
+              <p className='text-[#d0e4c6] text-lg md:w-[90%] lg:w-[80%] my-8'>
                 Digihorse Empires is redefining the gaming landscape with its groundbreaking play-to-earn model. Imagine turning your passion for horse racing into a lucrative venture where every race, trade, and investment in NFT horses translates into real-world earnings. Our platform rewards your skills and strategic decisions, allowing you to generate significant income just by playing the game.
                 <br /> <br />
                 Whether you're racing your top-performing horse, trading rare NFTs, or renting out your hippodromes for advertising revenue, every action in Digihorse Empires has the potential to boost your earnings. The integration with the Base Blockchain ensures secure, fast, and transparent transactions, making it easier than ever to profit from your gaming activities.
                 </p>
             </div>
-            <div className='w-full'>
-              <img src="https://staging.digihorseempires.io/images/landing/tokonomics.webp" className='' />
+
+            <div className='w-[30%]'>
+              <img src="/images/home/play and earn.png" className='w-full' />
             </div>
             <div className='hidden md:block w-[216px] h-[216px] bg-[#9ae89d] blur-[127px]  absolute opacity-60 top-[30%] left-[20%] -z-10' />
           </div>

@@ -9,15 +9,18 @@ const teams = [{
 }, {
     name: "The Race Strategist",
     url: "./images/deHorse/22.jpg",
-    description: "A horse racing enthusiast and DeFi aficionado, the Race Strategist brings a unique blend of expertise in equestrian sports and financial markets to Digihorse Empires. Leveraging their deep understanding of race dynamics and betting strategies, they design innovative gameplay features and betting mechanisms that drive excitement and engagement among players. Remaining anonymous allows them to operate discreetly, focusing on refining race strategies and optimizing user experience without distractions."
+    // description: "A horse racing enthusiast and DeFi aficionado, the Race Strategist brings a unique blend of expertise in equestrian sports and financial markets to Digihorse Empires. Leveraging their deep understanding of race dynamics and betting strategies, they design innovative gameplay features and betting mechanisms that drive excitement and engagement among players. Remaining anonymous allows them to operate discreetly, focusing on refining race strategies and optimizing user experience without distractions."
+    description: "A horse racing enthusiast and DeFi aficionado, the Race Strategist brings a unique blend of expertise in equestrian sports and financial markets to Digihorse Empires. Leveraging their deep understanding of race dynamics and betting strategies, they design innovative gameplay features and betting mechanisms that drive excitement and engagement among players."
 }, {
     name: "The Community Wrangler",
     url: "./images/deHorse/44.jpg",
-    description: "A skilled communicator and community builder, the Community Wrangler specializes in fostering a vibrant and supportive community around Digihorse Empires. Through strategic community engagement initiatives and social media outreach, they cultivate a loyal following of players and enthusiasts. Operating anonymously enables them to connect with the community authentically, building trust and rapport while amplifying the project's visibility and adoption."
+    // description: "A skilled communicator and community builder, the Community Wrangler specializes in fostering a vibrant and supportive community around Digihorse Empires. Through strategic community engagement initiatives and social media outreach, they cultivate a loyal following of players and enthusiasts. Operating anonymously enables them to connect with the community authentically, building trust and rapport while amplifying the project's visibility and adoption."
+    description: "A skilled communicator and community builder, the Community Wrangler specializes in fostering a vibrant and supportive community around Digihorse Empires. Through strategic community engagement initiatives and social media outreach, they cultivate a loyal following of players and enthusiasts."
 }, {
     name: "The Security Guardian",
     url: "./images/deHorse/33.jpg",
-    description: "A cybersecurity expert with a passion for protecting digital assets and ensuring platform integrity. The Security Guardian is dedicated to fortifying Digihorse Empires' infrastructure against potential threats and vulnerabilities. Conducting thorough security audits and implementing robust risk mitigation strategies, they prioritize the safety and privacy of user funds and gaming data. By operating anonymously, they can focus on maintaining the highest standards of security without drawing unwanted attention from malicious actors."
+    // description: "A cybersecurity expert with a passion for protecting digital assets and ensuring platform integrity. The Security Guardian is dedicated to fortifying Digihorse Empires' infrastructure against potential threats and vulnerabilities. Conducting thorough security audits and implementing robust risk mitigation strategies, they prioritize the safety and privacy of user funds and gaming data. By operating anonymously, they can focus on maintaining the highest standards of security without drawing unwanted attention from malicious actors."
+    description: "A cybersecurity expert with a passion for protecting digital assets and ensuring platform integrity. The Security Guardian is dedicated to fortifying Digihorse Empires' infrastructure against potential threats and vulnerabilities. Conducting thorough security audits and implementing robust risk mitigation strategies, they prioritize the safety and privacy of user funds and gaming data.  They can focus on maintaining the highest standards of security without drawing unwanted attention from malicious actors."
 }, {
     name: "The Mane Marketer",
     url: "./images/deHorse/55.jpg",
@@ -80,7 +83,7 @@ export default function MeetTeamCard() {
                                 <i className='w-[90%] lg:w-[80%] h-20 bg-[#00000090] absolute -z-10 blur-xl group-hover:opacity-0 font-slant' />
                                 {team.name}
                             </p>
-                            {/* <p className='h-0 group-hover:h-auto opacity-0 group-hover:opacity-100  text-white text-sm'>{team.description} </p> */}
+                            <p className='h-0 group-hover:h-auto opacity-0 group-hover:opacity-100  text-white text-sm'>{team.description} </p>
                         </div>
                     </div>
                 })}
