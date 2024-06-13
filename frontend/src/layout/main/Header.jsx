@@ -1,13 +1,14 @@
 
 import { useWeb3Modal } from '@web3modal/wagmi/react'
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink, useNavigate } from 'react-router-dom'
 import { useAccount } from 'wagmi'
 import PreSale from './PreSale'
 
 export default function Header()  {
   const { open } = useWeb3Modal()
   const {isConnected,address} = useAccount()
+  const navigate = useNavigate()
   
 
   return (
@@ -59,20 +60,33 @@ export default function Header()  {
                    <div className="w-2 h-[1px] bg-[#00FF4E] nav-link rounded-full hidden group-hover:block"></div>
                    <div className="w-2 h-[1px] block group-hover:hidden"></div>
                   </div>
-              
+              <div className="flex items-center gap-3">
 
-                <button className=' relative group' onClick={() => open()}>
-                  {/* <img src="/images/nav-connect.png" className='group-hover:hidden w-full h-full absolute object-cover' alt="" /> */}
+
+                <button className=' relative group' onClick={() => {
+                  if(!isConnected){open()}else{navigate('/dashboard/user')}
+                }
+                  }>
+                  
                   <img src="/button/light-green-connect.png" className='group-hover:hidden w-full h-full absolute object-cover' alt="" />
                   
                   <img src="/button/green-connect.png" height={36} width={100} className='hidden group-hover:block w-full h-full absolute object-cover' alt="" />
                   <p className='py-3 px-7 relative z-10'>
 
-                  {isConnected ? address?.substring(0,5) + '...' + address?.substring(address.length-5,address.length) :  'CONNECT'}
-                  </p>
-
-                  
+                  {isConnected ? 
+                  // address?.substring(0,5) + '...' + address?.substring(address.length-5,address.length) 
+                  "LAUNCH APP"
+                  :  'CONNECT'}
+                  </p>                  
                   </button>
+
+                  {isConnected && <button className=' relative group' onClick={() => {open()}}>
+                  <img src="/button/light-green-connect.png" className='group-hover:hidden w-full h-full absolute object-cover' alt="" />
+                  
+                  <img src="/button/green-connect.png" height={36} width={100} className='hidden group-hover:block w-full h-full absolute object-cover' alt="" />
+                  <p className='py-3 px-7 relative z-10'>{address?.substring(0,5) + '...' + address?.substring(address.length-5,address.length) }</p>
+                  </button>}
+              </div>
         </div>
       </div>
       <PreSale />

@@ -14,7 +14,7 @@ export default function HowToBuy() {
         
         <section className="space-y-5 px-[5%]">
          
-          <h2 className="font-slant text-center text-[2em]">
+          <h2 className="font-slant text-center text-[2.5em] text-[#18ff04]">
             1. How To Buy - Metamask/Web3 Wallet
           </h2>
 
@@ -109,7 +109,7 @@ export default function HowToBuy() {
               <div className="mx-8 my-16">
                 <p className="text-gold font-slant mb-8 text-3xl text-white">
                   <span className="text-[1.5em]"> Step 4</span> <br />
-                  Claim Your $DIGI Tokens
+                  Claim Your <span className='font-conthrax font-semibold'>$</span>DIGI Tokens
                 </p>
                 <div className="space-y-1">
                   <p className="tab:text-xl font-vcr text-sm text-[#d0e4c6]">
@@ -126,8 +126,8 @@ export default function HowToBuy() {
 
 
         <section className="space-y-5 px-[5%]">
-          <h2 className="font-slant text-center text-[2em]">
-            2. How to Buy $DIGI with a Card
+          <h2 className="font-slant text-center text-[2.5em] text-[#18ff04]">
+            2. How to Buy <span className='font-conthrax font-semibold'>$</span>DIGI with a Card
           </h2>
 
           <p className="font-vcr container mx-auto px-[5%] text-center">
@@ -241,14 +241,14 @@ export default function HowToBuy() {
             // data-aos="fade-right" data-aos-duration="1500" data-aos-delay="300"
             >
 
-            {/* <img src="" className='w-20 h-20 border border-white absolute -top-10 inset-x-0 mx-auto' alt="" /> */}
+            <img src="/images/home/blue-logo.webp" className='w-20 h-20  absolute -top-10 inset-x-0 mx-auto' alt="" />
 
 
               <div className="ecoGlare ecoGlare4 absolute hidden h-[100px] w-[100px] -translate-x-16 translate-y-8 animate-pulse bg-[#9ae89d] opacity-40 blur-[50px] md:block"></div>
               <div className="mx-8 my-16">
                 <p className="text-gold font-slant mb-8 text-3xl text-white">
                   <span className="text-[1.5em]"> Step 5 </span> <br />
-                  Claim Your $DIGI Tokens
+                  Claim Your <span className='font-conthrax font-semibold'>$</span>DIGI Tokens
                 </p>
                 <div className="space-y-1">
                   <p className="tab:text-xl font-vcr text-sm text-[#d0e4c6]">
@@ -266,7 +266,7 @@ export default function HowToBuy() {
             >
 
 
-            {/* <img src="" className='w-20 h-20 border border-white absolute -top-10 inset-x-0 mx-auto' alt="" /> */}
+            <img src="/images/home/yellow-logo.webp" className='w-20 h-20 absolute -top-10 inset-x-0 mx-auto' alt="" />
             
               <div className="ecoGlare ecoGlare5 absolute hidden h-[100px] w-[100px] -translate-x-16 translate-y-8 animate-pulse bg-[#9ae89d] opacity-40 blur-[50px] md:block"></div>
               <div className="mx-8 my-16">

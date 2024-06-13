@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom'
+import { BrowserRouter, Outlet, Route, Routes, useLocation } from 'react-router-dom'
 import MainLayout from '../layout/main'
 import HomePage from '../pages/home'
 
@@ -9,6 +9,8 @@ import "aos/dist/aos.css";
 import PrivacyPolicy from '../pages/Privacy Policy';
 import HowToBuy from '../pages/How To Buy';
 import HowToClaim from '../pages/How To Claim';
+import UserApp from '../pages/dashboard/user/app';
+import DashboardLayout from '../layout/dashboard';
 // import Web3 from 'web3';
 
 
@@ -62,10 +64,12 @@ export default function Router()  {
             <Route path='/privacy-policy' element={<PrivacyPolicy/>} />
             <Route path='/how-to-buy' element={<HowToBuy/>} />
             <Route path='/how-to-claim' element={<HowToClaim/>} />
-            
-            
-
         </Route>
+
+        <Route path='/dashboard' element={<DashboardLayout/>}>
+          <Route path='user' element={<UserApp/>} />
+        </Route>
+
     </Routes>
 
   )

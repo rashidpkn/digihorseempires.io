@@ -113,7 +113,7 @@ export default function Refer2() {
           </div>
           <div className="py-[15px] 2xl:py-5 px-[18px] 2xl:px-6 flex flex-col items-center border w-full rounded home-blue-box">
             <img
-              src="/images/home/red-logo.webp"
+              src="/images/home/blue-logo.webp"
               className="w-[60px] 2xl:w-[80px]"
               alt=""
             />
@@ -129,7 +129,7 @@ export default function Refer2() {
           </div>
           <div className="py-[15px] 2xl:py-5 px-[18px] 2xl:px-6 flex flex-col items-center border w-full rounded home-gold-box">
             <img
-              src="/images/home/red-logo.webp"
+              src="/images/home/yellow-logo.webp"
               className="w-[60px] 2xl:w-[80px]"
               alt=""
             />

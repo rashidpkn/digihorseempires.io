@@ -143,13 +143,14 @@ const changeAmount = (e) => {
                                 </>}
 
                 <div className="mt-3 flex justify-center items-center gap-3 font-vcr">
-                        <Icon icon={'ri:shield-star-line'} className='text-3xl'/>
-                            <p>Verified by Solid Proof</p>
+                        {/* <Icon icon={'ri:shield-star-line'} className='text-3xl'/>
+                            <p>Verified by Solid Proof</p> */}
+                            <img src="/images/widget/solid-proof.png" width={200} alt="" />
                 </div>
 
                     </div>
 
-                    {Object.keys(cryptoPayment).length &&  <div className="fixed inset-0 z-50 flex items-center justify-center overflow-y-auto overflow-x-hidden bg-[#00000099] outline-none focus:outline-none">
+                    {!!Object.keys(cryptoPayment).length &&  <div className="fixed inset-0 z-50 flex items-center justify-center overflow-y-auto overflow-x-hidden bg-[#00000099] outline-none focus:outline-none">
   <div className="relative text-black ">
     <div className="from-primary border-primary relative flex flex-col rounded-3xl border-[.1px] bg-gradient-to-br to-white to-30% shadow-lg outline-none bg-white">
       <div className="flex items-start justify-between rounded-t p-4">
